@@ -9,6 +9,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 from .config import AgentEndpoint, get_settings
 from .logging_setup import get_logger
 from .models import AgentGainer, AgentNarrative, AgentReport
+from .sector_map import normalize_sector
 
 log = get_logger(__name__)
 
@@ -94,6 +95,11 @@ def collect_agent_report(endpoint: AgentEndpoint, today: str) -> AgentReport:
 
     narrative = _normalise_narrative(raw.get("narrative"))
     is_stale = latest_date != today
+
+    # Normalize sector tags into unified cross-market taxonomy
+    for g in gainers:
+        if g.sector_or_tag:
+            g.sector_or_tag = normalize_sector(g.sector_or_tag)
 
     log.info(
         "[%s] collected report date=%s (stale=%s, gainers=%d)",

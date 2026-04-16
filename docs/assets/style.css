@@ -17,7 +17,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
   background: var(--bg); color: var(--text); line-height: 1.6;
 }
-.hero { text-align: center; padding: 2.5rem 1rem 1.5rem; border-bottom: 1px solid var(--border); }
+.hero { text-align: center; padding: 2.5rem 1rem 1.5rem; border-bottom: 1px solid var(--border); position: relative; }
 .hero h1 { margin: 0 0 .5rem; font-size: 2rem; }
 .tagline { color: var(--muted); margin: 0; }
 .tagline a { color: var(--accent); text-decoration: none; }
@@ -78,4 +78,22 @@ td:first-child, th:first-child { text-align: left; }
 .nav-buttons button:disabled { opacity: .4; cursor: not-allowed; }
 footer { text-align: center; padding: 2rem 1rem 3rem; color: var(--muted); font-size: .85rem; }
 footer a { color: var(--accent); }
+body.light {
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --border: #e2e6ed;
+  --text: #1a1d23;
+  --muted: #5a6270;
+}
+body.light .market-card,
+body.light .analysis,
+body.light td { background: #f9fafb; }
+
+.theme-btn {
+  position: absolute; top: 1rem; right: 1rem;
+  background: var(--card); border: 1px solid var(--border);
+  color: var(--text); border-radius: 8px; padding: .4rem .7rem;
+  cursor: pointer; font-size: 1.1rem;
+}
+
 @media (max-width: 600px) { .hero h1 { font-size: 1.5rem; } .card { padding: 1rem; } }

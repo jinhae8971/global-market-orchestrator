@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Global Market Intelligence</title>
 <link rel="stylesheet" href="assets/style.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 </head>
 <body>
 <header class="hero">
   <h1>🌐 Global Market Intelligence</h1>
+  <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()">☀️</button>
   <p class="tagline" id="hero-tagline">Loading…</p>
 </header>
 
@@ -42,6 +44,12 @@
     <h2>💡 Global Insight</h2>
     <p class="insight" id="insight-text"></p>
     <p id="positioning-text"></p>
+  </section>
+
+  <!-- 7-Day Risk Posture Trend -->
+  <section class="card" id="trend-card" hidden>
+    <h2>📈 7-Day Risk Posture Trend</h2>
+    <canvas id="trend-chart" height="200"></canvas>
   </section>
 
   <!-- Past reports -->

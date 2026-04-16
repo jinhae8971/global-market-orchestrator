@@ -1,5 +1,21 @@
 /* Global Market Orchestrator dashboard */
 
+/* ─── Theme toggle ─── */
+function toggleTheme() {
+  const body = document.body;
+  body.classList.toggle("light");
+  const btn = document.getElementById("theme-toggle");
+  btn.textContent = body.classList.contains("light") ? "\uD83C\uDF19" : "\u2600\uFE0F";
+  localStorage.setItem("theme", body.classList.contains("light") ? "light" : "dark");
+}
+(function initTheme() {
+  if (localStorage.getItem("theme") === "light") {
+    document.body.classList.add("light");
+    const btn = document.getElementById("theme-toggle");
+    if (btn) btn.textContent = "\uD83C\uDF19";
+  }
+})();
+
 const INDEX_URL = "reports/index.json";
 const REPORT_URL = (d) => `reports/${d}.json`;
 const RISK_EMOJI = {"Risk-On":"🟢","Neutral":"🟡","Risk-Off":"🔴"};
@@ -30,6 +46,8 @@ async function renderDashboard(){
     renderInsight(r.cross_analysis,r.narrative);
   }catch(e){console.warn(e)}
   renderHistory(index);
+  // Render 7-day trend chart
+  if (index.length >= 2) renderTrendChart(index.slice(0, 7));
 }
 
 function renderPosture(ca){
@@ -111,6 +129,47 @@ function renderHistory(index){
       e.narrative_tagline||"report"
     );
     ul.appendChild(el("li",{},a));
+  });
+}
+
+function renderTrendChart(entries) {
+  const card = document.getElementById("trend-card");
+  if (!card) return;
+  card.hidden = false;
+  const labels = entries.map(e => e.date).reverse();
+  const riskMap = {"Risk-On": 1, "Neutral": 0, "Risk-Off": -1};
+  const data = entries.map(e => riskMap[e.risk_posture] ?? 0).reverse();
+  const ctx = document.getElementById("trend-chart");
+  new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [{
+        label: "Risk Posture",
+        data,
+        borderColor: "#4ea8ff",
+        backgroundColor: "rgba(78,168,255,0.1)",
+        fill: true,
+        tension: 0.3,
+        pointRadius: 5,
+        pointBackgroundColor: data.map(v => v > 0 ? "#2ecc71" : v < 0 ? "#e74c3c" : "#f1c40f"),
+      }],
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          min: -1.5, max: 1.5,
+          ticks: {
+            callback: v => ({1:"Risk-On", 0:"Neutral", "-1":"Risk-Off"}[v] || ""),
+            color: "#8892a6",
+          },
+          grid: { color: "rgba(255,255,255,0.05)" },
+        },
+        x: { ticks: { color: "#8892a6" }, grid: { color: "rgba(255,255,255,0.05)" } },
+      },
+      plugins: { legend: { display: false } },
+    },
   });
 }
 

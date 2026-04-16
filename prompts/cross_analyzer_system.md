@@ -41,6 +41,9 @@ Given today's reports from all five agents, produce:
 - Be specific: name tickers/coins, cite the change percentages, reference
   the individual agent narratives.
 - Consider macro linkages: USD/KRW, US yields, oil, FOMC, BOK, global PMI.
+- **Sector tags have been normalized** across all markets into a unified
+  taxonomy (e.g., KOSPI "반도체" → "Semiconductors", Crypto "L1" → "Crypto/L1").
+  Use these normalized names in the sector_heatmap output.
 
 # Output format
 

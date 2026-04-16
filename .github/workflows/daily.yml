@@ -62,6 +62,18 @@ jobs:
             fi
           fi
 
+      - name: Notify failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          MSG="⚠️ Global Market Orchestrator pipeline failed on $(date -u +%F)%0ACheck: https://github.com/jinhae8971/global-market-orchestrator/actions"
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d text="${MSG}" \
+            -d parse_mode="HTML" || true
+
   deploy-pages:
     needs: orchestrate
     runs-on: ubuntu-latest
