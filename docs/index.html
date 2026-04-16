@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Global Market Intelligence</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header class="hero">
+  <h1>🌐 Global Market Intelligence</h1>
+  <p class="tagline" id="hero-tagline">Loading…</p>
+</header>
+
+<main>
+  <!-- Risk posture banner -->
+  <section class="card posture-card" id="posture-card" hidden>
+    <span class="posture-badge" id="posture-badge"></span>
+    <p id="flow-text"></p>
+  </section>
+
+  <!-- Cross-market signals -->
+  <section class="card" id="signals-card" hidden>
+    <h2>📊 Cross-Market Signals</h2>
+    <ul id="signals-list"></ul>
+  </section>
+
+  <!-- Market cards row -->
+  <section class="card" id="markets-card" hidden>
+    <h2>🏆 Top Movers by Market</h2>
+    <div id="markets-grid" class="grid"></div>
+  </section>
+
+  <!-- Heatmap -->
+  <section class="card" id="heatmap-card" hidden>
+    <h2>🗺️ Sector Heatmap</h2>
+    <div class="table-wrap"><table id="heatmap-table"></table></div>
+  </section>
+
+  <!-- Global insight -->
+  <section class="card" id="insight-card" hidden>
+    <h2>💡 Global Insight</h2>
+    <p class="insight" id="insight-text"></p>
+    <p id="positioning-text"></p>
+  </section>
+
+  <!-- Past reports -->
+  <section class="card">
+    <h2>📚 Past Global Reports</h2>
+    <ul id="history-list" class="history"></ul>
+  </section>
+</main>
+
+<footer>
+  <p>Orchestrator runs daily 23:30 UTC · aggregates 5 market agents</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

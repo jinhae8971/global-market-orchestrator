@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Global Report</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header class="hero">
+  <h1 id="report-title">Report</h1>
+  <p class="tagline"><a href="index.html">← Back to dashboard</a></p>
+</header>
+
+<main>
+  <section class="card posture-card" id="posture-card">
+    <span class="posture-badge" id="posture-badge"></span>
+    <p id="flow-text"></p>
+  </section>
+
+  <section class="card" id="signals-card">
+    <h2>📊 Cross-Market Signals</h2>
+    <ul id="signals-list"></ul>
+  </section>
+
+  <section class="card" id="divergence-card" hidden>
+    <h2>🔀 Divergences</h2>
+    <ul id="divergence-list"></ul>
+  </section>
+
+  <section class="card" id="markets-card">
+    <h2>🏆 Markets Detail</h2>
+    <div id="markets-detail" class="analysis-list"></div>
+  </section>
+
+  <section class="card" id="heatmap-card" hidden>
+    <h2>🗺️ Sector Heatmap</h2>
+    <div class="table-wrap"><table id="heatmap-table"></table></div>
+  </section>
+
+  <section class="card" id="narrative-card" hidden>
+    <h2>🌍 Weekly Narrative</h2>
+    <p><strong>Macro:</strong> <span id="macro-text"></span></p>
+    <p><strong>Flows:</strong> <span id="narr-flow-text"></span></p>
+    <p><strong>WoW:</strong> <span id="wow-text"></span></p>
+    <div id="convergence-div" hidden>
+      <h4>Convergence</h4><ul id="convergence-list"></ul>
+    </div>
+    <div id="divergence-theme-div" hidden>
+      <h4>Divergence</h4><ul id="divergence-theme-list"></ul>
+    </div>
+    <p class="insight" id="positioning-text"></p>
+  </section>
+
+  <section class="card" id="insight-card">
+    <h2>💡 Global Insight</h2>
+    <p class="insight" id="insight-text"></p>
+  </section>
+
+  <nav class="card nav-buttons">
+    <button id="prev-btn">← Previous</button>
+    <button id="next-btn">Next →</button>
+  </nav>
+</main>
+
+<footer><p><a href="index.html">← Back to dashboard</a></p></footer>
+
+<script src="assets/app.js"></script>
+<script>if (window.renderReportPage) renderReportPage();</script>
+</body>
+</html>
