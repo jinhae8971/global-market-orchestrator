@@ -34,6 +34,9 @@ def run(dry_run: bool = False, skip_telegram: bool = False) -> GlobalReport:
     today = datetime.now(UTC).strftime("%Y-%m-%d")
     log.info("=== global-market-orchestrator run (dry_run=%s) ===", dry_run)
 
+    if not dry_run and not settings.anthropic_api_key:
+        raise RuntimeError("ANTHROPIC_API_KEY is required for full runs (use --dry-run to skip)")
+
     # 1. Collect
     agent_reports = collect_all(today)
     active = [ar for ar in agent_reports if ar.top_gainers]

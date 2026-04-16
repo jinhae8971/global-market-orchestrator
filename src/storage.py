@@ -28,6 +28,9 @@ def _update_index(report: GlobalReport) -> None:
     if index_path.exists():
         try:
             index = json.loads(index_path.read_text(encoding="utf-8"))
+            if not isinstance(index, list):
+                log.warning("index.json is not a list, rebuilding")
+                index = []
         except json.JSONDecodeError:
             log.warning("index.json corrupted, rebuilding")
 

@@ -80,6 +80,11 @@ def send_report(report: GlobalReport) -> None:
         return
 
     text = _format_message(report, settings.dashboard_url)
+    MAX_TG_LEN = 4096
+    if len(text) > MAX_TG_LEN:
+        # Truncate but keep the dashboard link at the end
+        link_line = text.rsplit("\n", 1)[-1] if "\n" in text else ""
+        text = text[: MAX_TG_LEN - len(link_line) - 20] + "\n\\.\\.\\.\n" + link_line
     _send(settings.telegram_bot_token, {
         "chat_id": settings.telegram_chat_id,
         "text": text,

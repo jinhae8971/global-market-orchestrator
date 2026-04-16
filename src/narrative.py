@@ -27,7 +27,10 @@ def synthesize_global_narrative(
     prior_reports: list[GlobalReport],
 ) -> GlobalNarrative:
     settings = get_settings()
-    system = (settings.prompts_dir / "global_narrative_system.md").read_text(encoding="utf-8")
+    prompt_path = settings.prompts_dir / "global_narrative_system.md"
+    if not prompt_path.exists():
+        raise FileNotFoundError(f"Prompt file missing: {prompt_path}")
+    system = prompt_path.read_text(encoding="utf-8")
 
     today_ctx = {
         "date": "today",

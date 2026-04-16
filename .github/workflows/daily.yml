@@ -47,10 +47,19 @@ jobs:
             echo "no changes to commit"
           else
             git commit -m "chore: global report $(date -u +%F)"
+            push_ok=false
             for i in 1 2 3 4; do
-              if git push; then echo "push succeeded"; break; fi
+              if git push; then
+                echo "push succeeded"
+                push_ok=true
+                break
+              fi
               sleep $((2 ** i))
             done
+            if [ "$push_ok" = false ]; then
+              echo "::error::git push failed after 4 retries"
+              exit 1
+            fi
           fi
 
   deploy-pages:

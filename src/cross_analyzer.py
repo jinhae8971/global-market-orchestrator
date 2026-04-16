@@ -41,21 +41,31 @@ def _call_claude(system: str, user_text: str) -> str:
 
 
 def _extract_json(text: str) -> dict:
+    """Tolerantly extract the first JSON object from a model response."""
     text = text.strip()
     if text.startswith("```"):
-        text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.DOTALL)
+        text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.DOTALL).strip()
+    # Try parsing the whole thing first
+    try:
+        result = json.loads(text)
+        if isinstance(result, dict):
+            return result
+    except json.JSONDecodeError:
+        pass
+    # Find the first { and try json.loads from there
     start = text.find("{")
     if start < 0:
         raise ValueError("no JSON object in model response")
-    depth = 0
-    for i in range(start, len(text)):
-        if text[i] == "{":
-            depth += 1
-        elif text[i] == "}":
-            depth -= 1
-            if depth == 0:
-                return json.loads(text[start : i + 1])
-    raise ValueError("unbalanced JSON in model response")
+    for end in range(len(text), start, -1):
+        if text[end - 1] != "}":
+            continue
+        try:
+            result = json.loads(text[start:end])
+            if isinstance(result, dict):
+                return result
+        except json.JSONDecodeError:
+            continue
+    raise ValueError("no valid JSON object found in model response")
 
 
 def _agent_to_context(ar: AgentReport) -> dict:
@@ -84,7 +94,10 @@ def _agent_to_context(ar: AgentReport) -> dict:
 def analyze_cross_market(agent_reports: list[AgentReport]) -> CrossMarketAnalysis:
     """Run Claude cross-market analysis on today's collected agent reports."""
     settings = get_settings()
-    system = (settings.prompts_dir / "cross_analyzer_system.md").read_text(encoding="utf-8")
+    prompt_path = settings.prompts_dir / "cross_analyzer_system.md"
+    if not prompt_path.exists():
+        raise FileNotFoundError(f"Prompt file missing: {prompt_path}")
+    system = prompt_path.read_text(encoding="utf-8")
 
     contexts = [_agent_to_context(ar) for ar in agent_reports]
     user_text = (
