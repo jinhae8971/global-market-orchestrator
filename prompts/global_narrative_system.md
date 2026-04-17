@@ -21,6 +21,9 @@ risk posture, sector heatmap, and global insights), produce:
    market overweights/underweights, key risk to monitor.
 6. **Week-over-week** — one sentence on how this week differs from last.
 
+- **모든 내용은 한국어로 작성하세요.** macro_regime, flow_summary,
+  positioning_advice, theme_convergence 등 모든 값을 한국어로.
+
 # Output format
 
 Return **only** JSON:

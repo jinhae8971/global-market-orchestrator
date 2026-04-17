@@ -44,6 +44,8 @@ Given today's reports from all five agents, produce:
 - **Sector tags have been normalized** across all markets into a unified
   taxonomy (e.g., KOSPI "반도체" → "Semiconductors", Crypto "L1" → "Crypto/L1").
   Use these normalized names in the sector_heatmap output.
+- **모든 분석 내용은 한국어로 작성하세요.** capital_flow_direction, signal, divergences,
+  global_insight, sector 이름 등 모든 값을 한국어로. JSON 키만 영어 유지.
 
 # Output format
 
