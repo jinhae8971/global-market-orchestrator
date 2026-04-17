@@ -11,12 +11,12 @@ from src.models import (
     GlobalNarrative,
     GlobalReport,
 )
-from src.notifier import _esc, _format_message
+from src.notifier import _h, _format_message
 
 
-def test_esc():
-    assert _esc("Hello (world)!") == "Hello \\(world\\)\\!"
-    assert _esc("S&P 500") == "S&P 500"
+def test_h_escapes_html_chars():
+    assert _h("a < b & c") == "a &lt; b &amp; c"
+    assert _h("S&P 500") == "S&amp;P 500"
 
 
 def test_format_message():
@@ -51,7 +51,8 @@ def test_format_message():
     )
     msg = _format_message(report, "https://example.io/global/")
     assert "글로벌 마켓 브리프" in msg
-    assert "Risk\\-On" in msg
+    assert "<b>" in msg
+    assert "Risk-On" in msg
     assert "Bittensor" in msg
     assert "NVIDIA" in msg
-    assert "report.html?date=2026-04-16" in msg.replace("\\", "")
+    assert "report.html?date=2026-04-16" in msg
