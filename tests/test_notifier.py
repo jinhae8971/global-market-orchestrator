@@ -14,7 +14,7 @@ from src.models import (
 from src.notifier import _esc, _format_message
 
 
-def test_escape_md():
+def test_esc():
     assert _esc("Hello (world)!") == "Hello \\(world\\)\\!"
     assert _esc("S&P 500") == "S&P 500"
 
@@ -50,7 +50,7 @@ def test_format_message():
         ),
     )
     msg = _format_message(report, "https://example.io/global/")
-    assert "Global Market Brief" in msg
+    assert "글로벌 마켓 브리프" in msg
     assert "Risk\\-On" in msg
     assert "Bittensor" in msg
     assert "NVIDIA" in msg
