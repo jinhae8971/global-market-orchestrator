@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "date": "2026-04-17",
+    "risk_posture": "Neutral",
+    "narrative_tagline": "Capital activity is isolated to speculative crypto positions (meme tokens and BNB Chain/Ordinals ecosystems), with no confirmable flows in e",
+    "agents": [
+      {
+        "key": "crypto",
+        "label": "Crypto",
+        "emoji": "🚀",
+        "date": "2026-04-17",
+        "is_stale": false,
+        "top_gainer": {
+          "name": "Siren",
+          "change_pct": 175.0
+        }
+      },
+      {
+        "key": "kospi",
+        "label": "KOSPI",
+        "emoji": "🇰🇷",
+        "date": "2026-04-17",
+        "is_stale": true,
+        "top_gainer": null
+      },
+      {
+        "key": "sp500",
+        "label": "S&P 500",
+        "emoji": "🇺🇸",
+        "date": "2026-04-17",
+        "is_stale": true,
+        "top_gainer": null
+      },
+      {
+        "key": "nasdaq",
+        "label": "NASDAQ-100",
+        "emoji": "💻",
+        "date": "2026-04-17",
+        "is_stale": true,
+        "top_gainer": null
+      },
+      {
+        "key": "dow30",
+        "label": "Dow 30",
+        "emoji": "🏛️",
+        "date": "2026-04-17",
+        "is_stale": true,
+        "top_gainer": null
+      }
+    ]
+  }
+]

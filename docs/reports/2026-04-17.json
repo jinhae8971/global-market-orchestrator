@@ -1,0 +1,199 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T00:39:35.131948Z",
+  "agent_reports": [
+    {
+      "agent_key": "crypto",
+      "agent_label": "Crypto",
+      "agent_emoji": "🚀",
+      "date": "2026-04-17",
+      "dashboard_url": "https://jinhae8971.github.io/crypto-research-agent/report.html?date=2026-04-17",
+      "is_stale": false,
+      "top_gainers": [
+        {
+          "identifier": "siren",
+          "name": "Siren",
+          "change_pct": 175.03947,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "ordi",
+          "name": "ORDI",
+          "change_pct": 145.89002,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "rosa",
+          "name": "Rosa Inu",
+          "change_pct": 113.77691,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "prl",
+          "name": "Perle",
+          "change_pct": 69.00017,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "axl",
+          "name": "Axelar",
+          "change_pct": 60.64125,
+          "sector_or_tag": ""
+        }
+      ],
+      "narrative": {
+        "current_narrative": "The market is rewarding low-cap meme token speculation, particularly within the BNB Chain and Bitcoin Ordinals ecosystems, with a secondary signal emerging in cross-chain interoperability.",
+        "hot_sectors": [
+          "Meme",
+          "Interop"
+        ],
+        "cooling_sectors": [],
+        "investment_insight": "Only a single day of data is available, which sharply limits conviction — any read here should be treated as directional noise rather than a confirmed trend. The meme sector dominates today's gainers (4 of 5 tokens) with low-to-moderate confidence scores across the board, suggesting fragile, momentum-driven moves rather than structural accumulation; avoid chasing these without confirmation over multiple sessions. Watch for AXL and the Interop category to either sustain volume or fade — a second consecutive day of Interop representation would be the minimum signal needed to warrant an overweight consideration."
+      }
+    },
+    {
+      "agent_key": "kospi",
+      "agent_label": "KOSPI",
+      "agent_emoji": "🇰🇷",
+      "date": "2026-04-17",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    },
+    {
+      "agent_key": "sp500",
+      "agent_label": "S&P 500",
+      "agent_emoji": "🇺🇸",
+      "date": "2026-04-17",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    },
+    {
+      "agent_key": "nasdaq",
+      "agent_label": "NASDAQ-100",
+      "agent_emoji": "💻",
+      "date": "2026-04-17",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    },
+    {
+      "agent_key": "dow30",
+      "agent_label": "Dow 30",
+      "agent_emoji": "🏛️",
+      "date": "2026-04-17",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    }
+  ],
+  "cross_analysis": {
+    "global_risk_posture": "Neutral",
+    "capital_flow_direction": "Capital activity is isolated to speculative crypto positions (meme tokens and BNB Chain/Ordinals ecosystems), with no confirmable flows in equities due to stale data across all four stock market reports.",
+    "cross_market_signals": [
+      {
+        "signal": "ORDI +145.89% signals renewed speculative interest in Bitcoin Ordinals/BRC-20 tokens — a niche but historically correlated with broader BTC momentum; equity markets (NASDAQ, S&P 500) are stale so cross-market confirmation is unavailable today.",
+        "markets_involved": [
+          "crypto"
+        ]
+      },
+      {
+        "signal": "Axelar (AXL) +60.64% in the Interoperability sector may hint at cross-chain infrastructure demand, but without NASDAQ or S&P 500 data to confirm parallel moves in blockchain infrastructure equities (e.g., Coinbase, MicroStrategy), this signal remains isolated to crypto.",
+        "markets_involved": [
+          "crypto"
+        ]
+      },
+      {
+        "signal": "Dominance of meme tokens (Siren +175%, Rosa Inu +113%, Perle +69%) across BNB Chain suggests retail speculative appetite is elevated within crypto, but the absence of equity data prevents any read on whether broader risk appetite (e.g., small-cap growth, ARK-type names) is corroborating this.",
+        "markets_involved": [
+          "crypto"
+        ]
+      }
+    ],
+    "sector_heatmap": [
+      {
+        "sector": "Meme/Speculative Tokens",
+        "crypto": "hot",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "Crypto/Interoperability",
+        "crypto": "warm",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "Bitcoin Ecosystem (Ordinals/BRC-20)",
+        "crypto": "hot",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "AI/Semiconductors",
+        "crypto": "n/a",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "Industrials/Blue-Chip",
+        "crypto": "n/a",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      }
+    ],
+    "divergences": [
+      "Crypto is showing elevated speculative activity (meme tokens +113–175%, Ordinals +145%) on a Friday, but all four equity markets (KOSPI, S&P 500, NASDAQ-100, Dow 30) have stale data — likely a weekend effect. This creates a one-sided view: crypto risk appetite cannot be validated or contradicted by equity behavior, making any cross-market risk-on read structurally incomplete.",
+      "The Interop sector (AXL +60.64%) is showing relative strength within crypto, a sector often correlated with broader DeFi and blockchain infrastructure investment themes. However, without live NASDAQ or S&P 500 data, it is impossible to determine whether this is being mirrored in publicly listed blockchain-adjacent equities, representing a meaningful divergence in observable data quality across markets today."
+    ],
+    "global_insight": "Today's cross-market picture is severely constrained by stale equity data across all four stock markets (KOSPI, S&P 500, NASDAQ-100, Dow 30), making a confident global risk posture call impossible — treat the overall read as Neutral by default rather than Risk-On despite crypto exuberance. Within crypto, the meme token surge (Siren +175%, ORDI +145%, Rosa Inu +113%) reflects fragile, momentum-driven retail speculation concentrated in BNB Chain and Bitcoin Ordinals, not structural accumulation — PMs should avoid initiating new crypto positions based on this signal alone and instead wait for multi-session confirmation and equity market reopening to validate broader risk appetite. The invalidating signal would be a meaningful reversal in ORDI and AXL on the next trading session combined with a risk-off open in US equities, which would confirm today's crypto moves as isolated weekend noise rather than the leading edge of a broader risk rally."
+  },
+  "narrative": {
+    "macro_regime": "Single-day snapshot with no historical context available; dominant observable force is retail-driven speculative liquidity concentrated in crypto (meme tokens, Ordinals, cross-chain infrastructure), while all major equity markets are data-dark, leaving the macro regime effectively unclassifiable beyond a default Neutral stance.",
+    "flow_summary": "Capital flows are entirely isolated within crypto — specifically BNB Chain meme tokens and Bitcoin Ordinals/BRC-20 ecosystems — with zero confirmable movement across equities (KOSPI, S&P 500, NASDAQ-100, Dow 30) due to universal stale data, likely reflecting a weekend market closure effect.",
+    "theme_convergence": [
+      "Retail speculative momentum concentrated in high-beta, narrative-driven crypto assets (meme tokens and Ordinals) suggesting elevated risk appetite within the crypto complex",
+      "Cross-chain infrastructure demand signaled by Axelar (AXL +60.64%) alongside Ordinals activity, pointing to ecosystem expansion interest beyond blue-chip crypto"
+    ],
+    "theme_divergence": [
+      "Crypto meme token exuberance (Siren +175%, Rosa Inu +113%, Perle +69%) is entirely unvalidated by any equity market signal, making it a crypto-idiosyncratic noise event rather than a confirmed broad risk-on regime shift"
+    ],
+    "positioning_advice": "Maintain Neutral global tilt and resist extrapolating today's crypto speculative surge into a broader risk-on call until equity markets reopen and multi-session confirmation is available. Overweight nothing on this data alone; treat crypto positions as speculative and size accordingly, with stops contingent on ORDI/AXL behavior in the next live session alongside the US equity open. Key risk to monitor: a risk-off equity open combined with a reversal in Ordinals-adjacent tokens would confirm today's moves as isolated weekend noise and warrant trimming any crypto exposure added near current levels.",
+    "week_over_week": "No prior weekly history is available for comparison, making a week-over-week trend assessment impossible at this time."
+  }
+}
