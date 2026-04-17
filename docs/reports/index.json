@@ -2,7 +2,7 @@
   {
     "date": "2026-04-17",
     "risk_posture": "Neutral",
-    "narrative_tagline": "Capital activity is isolated to speculative crypto positions (meme tokens and BNB Chain/Ordinals ecosystems), with no confirmable flows in e",
+    "narrative_tagline": "주식 시장 데이터 부재(주말 또는 휴장)로 크립토 시장 단독으로 자금이 유입되고 있으며, 특히 밈 토큰 및 BNB 체인·비트코인 오디널스 생태계로 단기 투기 자금이 집중되는 양상.",
     "agents": [
       {
         "key": "crypto",
