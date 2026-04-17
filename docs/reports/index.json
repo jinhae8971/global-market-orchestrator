@@ -2,7 +2,7 @@
   {
     "date": "2026-04-17",
     "risk_posture": "Neutral",
-    "narrative_tagline": "주식 시장 데이터 부재(주말 또는 휴장)로 크립토 시장 단독으로 자금이 유입되고 있으며, 특히 밈 토큰 및 BNB 체인·비트코인 오디널스 생태계로 단기 투기 자금이 집중되는 양상.",
+    "narrative_tagline": "주말 장세로 주식 시장 데이터가 부재한 가운데, 가용 자금이 크립토 밈코인 및 저시가총액 투기성 토큰으로 단기 집중 유입되고 있으나 주요 자산군 간 방향성 판단은 유보적이다.",
     "agents": [
       {
         "key": "crypto",
@@ -11,8 +11,8 @@
         "date": "2026-04-17",
         "is_stale": false,
         "top_gainer": {
-          "name": "Siren",
-          "change_pct": 175.0
+          "name": "ORDI",
+          "change_pct": 173.8
         }
       },
       {

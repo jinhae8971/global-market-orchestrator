@@ -1,6 +1,6 @@
 {
   "date": "2026-04-17",
-  "generated_at": "2026-04-17T00:45:41.697756Z",
+  "generated_at": "2026-04-17T00:51:32.985993Z",
   "agent_reports": [
     {
       "agent_key": "crypto",
@@ -11,44 +11,46 @@
       "is_stale": false,
       "top_gainers": [
         {
-          "identifier": "siren",
-          "name": "Siren",
-          "change_pct": 175.03947,
+          "identifier": "ordi",
+          "name": "ORDI",
+          "change_pct": 173.84899,
           "sector_or_tag": ""
         },
         {
-          "identifier": "ordi",
-          "name": "ORDI",
-          "change_pct": 145.89002,
+          "identifier": "siren",
+          "name": "Siren",
+          "change_pct": 165.49952,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "based",
+          "name": "Based",
+          "change_pct": 144.87253,
           "sector_or_tag": ""
         },
         {
           "identifier": "rosa",
           "name": "Rosa Inu",
-          "change_pct": 113.77691,
+          "change_pct": 111.26612,
           "sector_or_tag": ""
         },
         {
           "identifier": "prl",
           "name": "Perle",
-          "change_pct": 69.00017,
-          "sector_or_tag": ""
-        },
-        {
-          "identifier": "axl",
-          "name": "Axelar",
-          "change_pct": 60.64125,
+          "change_pct": 77.15113,
           "sector_or_tag": ""
         }
       ],
       "narrative": {
-        "current_narrative": "The market is rewarding low-cap meme token speculation, particularly within the BNB Chain and Bitcoin Ordinals ecosystems, with a secondary signal emerging in cross-chain interoperability.",
+        "current_narrative": "시장은 현재 밈코인 투기 열풍과 Binance Alpha Spotlight 효과를 중심으로 저시가총액 무근거 펌프를 집중적으로 보상하고 있다.",
         "hot_sectors": [
           "Meme",
+          "DeFi/DEX"
+        ],
+        "cooling_sectors": [
           "Interop"
         ],
-        "cooling_sectors": [],
-        "investment_insight": "Only a single day of data is available, which sharply limits conviction — any read here should be treated as directional noise rather than a confirmed trend. The meme sector dominates today's gainers (4 of 5 tokens) with low-to-moderate confidence scores across the board, suggesting fragile, momentum-driven moves rather than structural accumulation; avoid chasing these without confirmation over multiple sessions. Watch for AXL and the Interop category to either sustain volume or fade — a second consecutive day of Interop representation would be the minimum signal needed to warrant an overweight consideration."
+        "investment_insight": "밈코인 섹터가 이틀 연속 탑게이너 대부분을 차지하고 있으나 신뢰도 점수가 전반적으로 낮아(0.20~0.62) 촉매 없는 투기성 유동성 펌프 성격이 강하므로, 단기 모멘텀 트레이딩 외 포지션 보유는 위험하다. Binance Alpha Spotlight 연계 토큰(SIREN, BASED)은 상대적으로 명확한 촉매가 있어 밈 섹터 내 선별적 초단기 익스포저는 가능하나, 비중은 최소화해야 한다. 밈 로테이션 둔화 또는 BTC 도미넌스 급등 시 해당 포지션을 즉시 청산하는 것이 유효한 리스크 관리 신호가 될 것이다."
       }
     },
     {
@@ -114,12 +116,17 @@
   ],
   "cross_analysis": {
     "global_risk_posture": "Neutral",
-    "capital_flow_direction": "주식 시장 데이터 부재(주말 또는 휴장)로 크립토 시장 단독으로 자금이 유입되고 있으며, 특히 밈 토큰 및 BNB 체인·비트코인 오디널스 생태계로 단기 투기 자금이 집중되는 양상.",
+    "capital_flow_direction": "주말 장세로 주식 시장 데이터가 부재한 가운데, 가용 자금이 크립토 밈코인 및 저시가총액 투기성 토큰으로 단기 집중 유입되고 있으나 주요 자산군 간 방향성 판단은 유보적이다.",
     "cross_market_signals": [
       {
-        "signal": "KOSPI, S&P 500, NASDAQ-100, Dow 30 모두 stale 데이터로 금일 유의미한 주식 시장 신호 없음. 크립토 시장만 활성화된 상태로, 전통 자산과의 교차 신호 도출이 불가능한 정보 공백 상태.",
+        "signal": "ORDI +173.85%, SIREN +165.5%, BASED +144.87% 등 크립토 상위 게이너가 밈코인 및 Binance Alpha Spotlight 연계 토큰에 집중되어 있으며, 이는 BTC·ETH 등 주요 자산보다 투기적 유동성이 꼬리 자산으로 흘러가고 있음을 시사한다. 그러나 주식 시장 데이터가 모두 stale 상태여서 크로스마켓 확인이 불가능하다.",
         "markets_involved": [
-          "crypto",
+          "crypto"
+        ]
+      },
+      {
+        "signal": "KOSPI, S&P 500, NASDAQ-100, Dow 30 모두 stale 데이터로 금일 기준 유효한 주식 시장 신호를 확인할 수 없다. 주말 효과로 인해 글로벌 위험 선호도의 방향성을 주식 지표로 교차 검증하는 것이 현재로서는 불가능하다.",
+        "markets_involved": [
           "kospi",
           "sp500",
           "nasdaq",
@@ -127,19 +134,13 @@
         ]
       },
       {
-        "signal": "ORDI(+145.89%)의 급등은 비트코인 오디널스 생태계에 대한 단기 투기 수요를 반영하며, 비트코인 네트워크 활동성 재점화 가능성을 시사하나 단일 세션 데이터로 확신은 어려움.",
+        "signal": "크립토 시장 내 DeFi/DEX 섹터가 핫 섹터로 부상하고 있으나, Interop(인터오퍼러빌리티) 섹터는 냉각 중이다. 이는 체인 간 자산 이동보다는 단일 체인 내 투기성 거래 활동이 활발함을 시사하며, 위험 선호가 선별적·단기적임을 나타낸다.",
         "markets_involved": [
           "crypto"
         ]
       },
       {
-        "signal": "Axelar(AXL, +60.64%)의 상승은 크로스체인 인터오퍼러빌리티 섹터의 단기 모멘텀을 보여주며, 멀티체인 인프라 테마에 대한 관심이 밈 열풍 속에서도 일부 존재함을 시사.",
-        "markets_involved": [
-          "crypto"
-        ]
-      },
-      {
-        "signal": "Siren(+175.04%), Rosa Inu(+113.78%), Perle(+69.0%) 등 저시총 밈 토큰이 상위권을 독점, BNB 체인 중심의 투기적 유동성이 극히 단기적 리스크온 성격을 띠고 있으나 전통시장 리스크온과는 무관한 고립된 움직임으로 해석.",
+        "signal": "Rosa Inu +111.27%, Perle +77.15% 등 근거 없는 저시가총액 밈 토큰의 급등은 신뢰도 점수가 낮아(0.20~0.62) 기관 자금 유입보다는 소매 투기 자금의 단기 로테이션 성격이 강하다. 주식 시장이 재개될 때 위험 선호 지속 여부를 교차 확인할 필요가 있다.",
         "markets_involved": [
           "crypto"
         ]
@@ -147,7 +148,7 @@
     ],
     "sector_heatmap": [
       {
-        "sector": "밈(Meme)",
+        "sector": "밈코인",
         "crypto": "hot",
         "kospi": "n/a",
         "sp500": "n/a",
@@ -155,32 +156,32 @@
         "dow30": "n/a"
       },
       {
-        "sector": "크로스체인/인터오퍼러빌리티(Interop)",
-        "crypto": "warm",
+        "sector": "DeFi/DEX",
+        "crypto": "hot",
         "kospi": "n/a",
         "sp500": "n/a",
         "nasdaq": "n/a",
         "dow30": "n/a"
       },
       {
-        "sector": "비트코인 생태계(Bitcoin Ordinals/BRC-20)",
-        "crypto": "warm",
+        "sector": "크로스체인/인터오퍼러빌리티",
+        "crypto": "cool",
         "kospi": "n/a",
         "sp500": "n/a",
         "nasdaq": "n/a",
         "dow30": "n/a"
       },
       {
-        "sector": "AI/반도체(AI/Semiconductors)",
-        "crypto": "n/a",
+        "sector": "AI/반도체",
+        "crypto": "neutral",
         "kospi": "n/a",
         "sp500": "n/a",
         "nasdaq": "n/a",
         "dow30": "n/a"
       },
       {
-        "sector": "전통 금융/블루칩(Financials/Blue-chip)",
-        "crypto": "n/a",
+        "sector": "Crypto/L1",
+        "crypto": "neutral",
         "kospi": "n/a",
         "sp500": "n/a",
         "nasdaq": "n/a",
@@ -188,22 +189,22 @@
       }
     ],
     "divergences": [
-      "크립토 시장은 밈 토큰 중심의 단기 투기 열풍으로 표면상 리스크온처럼 보이나, KOSPI·S&P 500·NASDAQ-100·Dow 30 데이터가 모두 stale 상태(주말/휴장 추정)로 전통 자산 시장의 실제 심리 확인 불가. 크립토의 단기 급등이 글로벌 리스크온의 신호인지, 단순 유동성 공백을 틈탄 투기인지 판별하기 위해서는 월요일 개장 후 주식 시장 반응을 반드시 확인해야 함.",
-      "AXL(인터오퍼러빌리티)의 상승이 밈 토큰 랠리와 동시에 발생하고 있어, 투기 자금이 밈에만 머물지 않고 인프라 섹터로도 일부 분산되는 조짐이 있음. 그러나 단일 세션 데이터로는 구조적 전환 여부를 판단하기 어려우며, 다음 세션에서 인터오퍼러빌리티 섹터의 연속 상승 여부가 핵심 확인 포인트."
+      "크립토 시장에서는 밈코인 중심의 단기 투기 열풍이 뚜렷하게 관찰되고 있으나, KOSPI·S&P 500·NASDAQ-100·Dow 30 데이터가 모두 stale(비현행)이어서 주식 시장이 동일한 위험 선호 신호를 보내고 있는지 확인 불가능하다. 주말 명일 개장 시 주식 시장의 방향성이 크립토의 투기적 분위기를 확인해 줄지, 아니면 디커플링을 보여줄지가 핵심 관전 포인트다.",
+      "크립토 내부에서도 BTC·ETH 등 대형 자산의 움직임보다 저시가총액 밈·Binance Alpha 토큰이 압도적 수익률을 기록하고 있어, 크립토 시장 내 '대형주 vs 소형 투기 자산' 간 내부 디버전스가 존재한다. 이는 진정한 위험 선호 확산이 아닌 단기 유동성 집중 현상일 가능성이 높다."
     ],
-    "global_insight": "현재 분석 가능한 데이터는 크립토 시장 단 하나로, 글로벌 자산 시장의 전반적 리스크 성향 판단에는 심각한 정보 한계가 존재한다. 크립토 내 밈 토큰 급등(Siren +175%, ORDI +146%)은 고위험 투기 자금의 단기 쏠림 현상이며, 포트폴리오 차원에서 의미 있는 전략적 진입 근거로 삼기에는 신뢰도가 낮다. 월요일 KOSPI·S&P 500·NASDAQ 개장 후 전통 주식 시장의 방향성을 확인한 뒤 글로벌 리스크 포지셔닝을 재정립할 것을 권고하며, 만약 주식 시장도 함께 리스크온을 보인다면 크립토 인터오퍼러빌리티(AXL) 섹터에 대한 소규모 익스포저 확대를 검토할 수 있다."
+    "global_insight": "오늘은 주식 시장 전체가 주말로 인해 stale 상태이므로, 유효한 크로스마켓 신호는 크립토에서만 도출 가능하다. 크립토 시장은 밈코인 및 Binance Alpha Spotlight 연계 토큰 중심의 투기적 단기 펌프가 지배적이며(ORDI +173.85%, SIREN +165.5%), 이는 구조적 위험 선호 확산보다는 소매 투기 자금의 로테이션에 가깝다. 주식 시장 재개 시 NASDAQ·S&P 500의 기술주 및 성장주 방향성을 확인하여 크립토 투기 심리가 글로벌 위험 선호로 이어지는지 검증하고, BTC 도미넌스 급등 또는 주식 시장 갭 하락이 관찰될 경우 크립토 투기 포지션을 즉각 축소하는 것이 유효한 리스크 관리 전략이다."
   },
   "narrative": {
-    "macro_regime": "주말 및 휴장에 따른 전통 자산 데이터 공백 속에서 크립토 시장 단독의 투기적 유동성이 지배적이며, 금리·성장·지정학 등 거시 핵심 변수에 대한 교차 검증이 불가능한 정보 진공 상태가 이번 주 말미의 지배적 매크로 환경임.",
-    "flow_summary": "주간 자금 흐름은 전통 주식 시장(KOSPI, S&P 500, NASDAQ-100, Dow 30) 전반에서 확인 가능한 방향성이 부재한 채, 크립토 시장—특히 BNB 체인 밈 토큰 및 비트코인 오디널스 생태계—으로 단기 투기 자금이 고립적으로 집중되는 구조였음.",
+    "macro_regime": "주말 휴장으로 전통 자산 시장 데이터가 전면 공백인 가운데, 지배적 매크로 동력은 유동성 공백을 틈탄 소매 투기 자금의 크립토 꼬리 자산 쏠림이며, 사이클상 방향성 판단이 불가능한 정보 진공 상태에 해당한다.",
+    "flow_summary": "이번 주 유효한 자금 흐름은 크립토 시장에만 국한되었으며, BTC·ETH 등 대형 자산을 우회하여 밈코인·BNB 체인·비트코인 오디널스(ORDI) 등 초고위험 저시가총액 토큰으로 단기 투기 자금이 집중 유입되었고, 전통 주식·채권 시장과의 연계 흐름은 확인 불가였다.",
     "theme_convergence": [
-      "밈 토큰 중심의 단기 투기 열풍: Siren(+175%), Rosa Inu(+114%), Perle(+69%), ORDI(+146%) 등이 복수 세션에 걸쳐 동시다발적으로 급등하며 BNB 체인 및 비트코인 오디널스 생태계 전반의 투기 수요 집중을 일관되게 반영",
-      "크로스체인 인터오퍼러빌리티 모멘텀: Axelar(AXL +60%)가 밈 열풍과 별도로 멀티체인 인프라 테마의 단기 관심을 복수 세션에 걸쳐 지속적으로 나타내며 투기 자금의 일부 분산 가능성을 시사"
+      "밈코인 및 저시가총액 투기성 토큰 중심의 단기 유동성 집중: ORDI, SIREN, Rosa Inu, Perle 등이 양일 모두 상위 게이너를 독점하며 소매 투기 자금 로테이션 패턴이 반복적으로 확인됨",
+      "주식 시장 데이터 공백에 따른 크로스마켓 교차 검증 불가: 이틀 연속 KOSPI·S&P 500·NASDAQ-100·Dow 30 전 데이터가 stale 상태로, 글로벌 위험 선호 판단을 위한 전통 자산 신호가 부재함"
     ],
     "theme_divergence": [
-      "전통 자산 시장과의 완전한 단절: 크립토의 표면적 리스크온 신호가 주식 시장 데이터 공백으로 인해 글로벌 리스크 심리와의 연결 고리가 전혀 검증되지 않은 채 고립된 시장 내 현상으로만 존재하는 이번 주 고유의 구조적 왜곡"
+      "크립토 인터오퍼러빌리티(AXL +60.64%) 섹터의 단기 모멘텀 부상: 밈 열풍 속에서도 멀티체인 인프라 테마에 소규모 자금이 분산되는 조짐이 17일 단독으로 관찰되었으나, 연속성 확인이 필요한 초기 신호에 불과함"
     ],
-    "positioning_advice": "월요일 KOSPI·S&P 500·NASDAQ 개장 후 전통 주식 시장의 방향성을 우선 확인하기 전까지는 크립토 밈 토큰 급등을 글로벌 리스크온의 근거로 삼아 신규 포지션을 구축하는 것을 자제하고, 전체 포트폴리오는 중립 기조를 유지할 것을 권고한다. 만약 주식 시장 개장 시 리스크온이 확인될 경우 크립토 인터오퍼러빌리티(AXL 등) 섹터에 대한 소규모 익스포저 확대를 검토할 수 있으나, 핵심 리스크는 주식 시장 개장 직후 리스크오프 전환 시 이번 주 크립토 급등이 유동성 공백을 틈탄 일시적 노이즈로 전락할 가능성이다.",
-    "week_over_week": "지난주 대비 달라진 점은 크립토 내 투기 테마(밈·오디널스)의 연속성이 확인되고 있으나, 전통 자산 시장 데이터 공백이 해소되지 않아 교차 검증 없이 두 번째 주말 연속으로 글로벌 리스크 성향 판단이 유보된 상태가 지속되고 있다는 점이다."
+    "positioning_advice": "주식 시장 재개 전까지 전략적 포지션 변경을 유보하고 중립 리스크 포스처를 유지할 것을 권고한다. 월요일 NASDAQ·S&P 500 개장 후 기술주 방향성이 크립토 투기 심리와 동조할 경우 소규모 크립토 인프라(인터오퍼러빌리티) 익스포저 확대를 검토할 수 있으나, BTC 도미넌스 급등 또는 주식 시장 갭 하락 시 크립토 투기 포지션을 즉각 축소해야 한다. 핵심 모니터링 리스크는 주식 시장 재개 시 나타날 전통 자산과 크립토 간 디커플링 여부다.",
+    "week_over_week": "지난주 대비 이번 주는 전통 자산 시장 데이터가 완전히 부재한 가운데 크립토 내 투기 자금 쏠림이 밈코인에서 반복·심화되는 양상으로, 글로벌 위험 선호 방향성 판단 자체가 불가능해진 정보 공백이 가장 두드러진 변화다."
   }
 }
