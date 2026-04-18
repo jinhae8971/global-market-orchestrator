@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-04-18",
-    "risk_posture": "Neutral",
-    "narrative_tagline": "유효한 시장 데이터가 크립토에만 한정되어 있으며, 자본은 Binance Alpha Spotlight 이벤트 중심의 밈·투기성 알트코인으로 단기 집중되는 양상이나 글로벌 방향성 판단은 제한적이다.",
+    "risk_posture": "Risk-On",
+    "narrative_tagline": "미중 무역 긴장 완화 기대감을 촉매로 미국 경기민감 소비주·산업재에서 강한 매수세가 유입되는 동시에, NASDAQ AI 인프라 반도체와 크립토 투기 테마로도 자금이 동시 분산되는 전방위 리스크온 흐름이 관찰된다.",
     "agents": [
       {
         "key": "crypto",
@@ -19,33 +19,45 @@
         "key": "kospi",
         "label": "KOSPI",
         "emoji": "🇰🇷",
-        "date": "2026-04-18",
+        "date": "2026-04-17",
         "is_stale": true,
-        "top_gainer": null
+        "top_gainer": {
+          "name": "STX엔진",
+          "change_pct": 30.0
+        }
       },
       {
         "key": "sp500",
         "label": "S&P 500",
         "emoji": "🇺🇸",
-        "date": "2026-04-18",
+        "date": "2026-04-17",
         "is_stale": true,
-        "top_gainer": null
+        "top_gainer": {
+          "name": "Royal Caribbean Group",
+          "change_pct": 7.3
+        }
       },
       {
         "key": "nasdaq",
         "label": "NASDAQ-100",
         "emoji": "💻",
-        "date": "2026-04-18",
+        "date": "2026-04-17",
         "is_stale": true,
-        "top_gainer": null
+        "top_gainer": {
+          "name": "MicroStrategy",
+          "change_pct": 11.8
+        }
       },
       {
         "key": "dow30",
         "label": "Dow 30",
         "emoji": "🏛️",
-        "date": "2026-04-18",
+        "date": "2026-04-17",
         "is_stale": true,
-        "top_gainer": null
+        "top_gainer": {
+          "name": "Sherwin-Williams",
+          "change_pct": 3.7
+        }
       }
     ]
   },
