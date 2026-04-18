@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T00:02:44.767366Z",
+  "agent_reports": [
+    {
+      "agent_key": "crypto",
+      "agent_label": "Crypto",
+      "agent_emoji": "🚀",
+      "date": "2026-04-17",
+      "dashboard_url": "https://jinhae8971.github.io/crypto-research-agent/report.html?date=2026-04-17",
+      "is_stale": true,
+      "top_gainers": [
+        {
+          "identifier": "soon",
+          "name": "SOON",
+          "change_pct": 51.26746,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "rave",
+          "name": "RaveDAO",
+          "change_pct": 34.40187,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "icnt",
+          "name": "Impossible Cloud Network Token",
+          "change_pct": 25.188,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "币安人生",
+          "name": "币安人生 (BinanceLife)",
+          "change_pct": 19.87022,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "skyai",
+          "name": "SkyAI",
+          "change_pct": 17.44235,
+          "sector_or_tag": "Crypto/AI"
+        }
+      ],
+      "narrative": {
+        "current_narrative": "시장은 Binance Alpha Spotlight 촉매와 저유동성 환경이 결합된 밈·투기 테마에 단기 프리미엄을 지급하고 있으며, 실질 내러티브보다 거래소 노출 이벤트가 가격 결정의 핵심 변수로 작동 중이다.",
+        "hot_sectors": [
+          "Meme",
+          "DePIN",
+          "L2"
+        ],
+        "cooling_sectors": [
+          "DeFi",
+          "DEX"
+        ],
+        "investment_insight": "이틀치 데이터만 존재해 확신도는 제한적이나, 현재 알파의 원천은 섹터 펀더멘털이 아닌 'Binance Alpha Spotlight 선정' 여부에 집중되어 있으므로 해당 이벤트 모니터링을 최우선 시그널로 삼아야 한다. DePIN·L2 등 인프라 태그가 Spotlight와 결합될 경우 단기 오버웨이트를 고려할 수 있으나, 평균 신뢰도가 0.22~0.55 수준으로 낮아 포지션 사이즈는 작게 유지해야 한다. 무효화 시그널은 Binance Alpha 선정 종목의 48시간 수익률이 연속 2회 이상 플러스 알파를 기록하지 못하거나, 밈 섹터 거래량이 급격히 소진되는 경우다."
+      }
+    },
+    {
+      "agent_key": "kospi",
+      "agent_label": "KOSPI",
+      "agent_emoji": "🇰🇷",
+      "date": "2026-04-18",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    },
+    {
+      "agent_key": "sp500",
+      "agent_label": "S&P 500",
+      "agent_emoji": "🇺🇸",
+      "date": "2026-04-18",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    },
+    {
+      "agent_key": "nasdaq",
+      "agent_label": "NASDAQ-100",
+      "agent_emoji": "💻",
+      "date": "2026-04-18",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    },
+    {
+      "agent_key": "dow30",
+      "agent_label": "Dow 30",
+      "agent_emoji": "🏛️",
+      "date": "2026-04-18",
+      "dashboard_url": "",
+      "is_stale": true,
+      "top_gainers": [],
+      "narrative": {
+        "current_narrative": "",
+        "hot_sectors": [],
+        "cooling_sectors": [],
+        "investment_insight": ""
+      }
+    }
+  ],
+  "cross_analysis": {
+    "global_risk_posture": "Neutral",
+    "capital_flow_direction": "유효한 시장 데이터가 크립토에만 한정되어 있으며, 자본은 Binance Alpha Spotlight 이벤트 중심의 밈·투기성 알트코인으로 단기 집중되는 양상이나 글로벌 방향성 판단은 제한적이다.",
+    "cross_market_signals": [
+      {
+        "signal": "크립토 시장에서 SkyAI(+17.44%)가 Crypto/AI 섹터 상위권에 진입했으나, NASDAQ·S&P500 데이터가 부재(stale)하여 글로벌 AI 테마의 연속성 확인이 불가능하다. 이전 사이클에서 NVIDIA 등 AI 하드웨어 강세와 크립토 AI 토큰 간 동조화가 관찰된 바 있어, 다음 거래일 NASDAQ AI 관련주 흐름과의 비교 모니터링이 필요하다.",
+        "markets_involved": [
+          "crypto",
+          "nasdaq"
+        ]
+      },
+      {
+        "signal": "Impossible Cloud Network Token(ICNT, +25.19%)의 급등은 DePIN(탈중앙화 물리 인프라) 테마의 단기 재점화를 시사한다. DePIN은 클라우드 인프라·데이터센터 투자 확대와 연계된 내러티브로, S&P500 내 클라우드 인프라 기업(예: AWS, Azure 관련주) 동향과 잠재적 연결고리가 존재하나 현재 주식 데이터 부재로 확인 불가하다.",
+        "markets_involved": [
+          "crypto",
+          "sp500"
+        ]
+      },
+      {
+        "signal": "RaveDAO(+34.4%) 및 SOON(+51.27%) 등 밈·투기 성격의 토큰이 상위권을 독점하고 있어, 크립토 시장 내 위험 선호는 펀더멘털이 아닌 거래소 이벤트(Binance Alpha Spotlight) 주도의 단기 투기 흐름임을 나타낸다. 이는 글로벌 주식시장의 방향성과 디커플링될 가능성이 높으며, 글로벌 리스크온 확산보다는 크립토 내부 유동성 순환으로 해석된다.",
+        "markets_involved": [
+          "crypto"
+        ]
+      },
+      {
+        "signal": "KOSPI, S&P500, NASDAQ-100, Dow 30 모두 2026-04-18 기준 stale 상태로 데이터 공백이 발생해 있다. 주말 혹은 공휴일 효과로 글로벌 주식시장 신호가 단절된 상황에서 크립토만이 유일한 실시간 리스크 센티먼트 지표 역할을 수행 중이다.",
+        "markets_involved": [
+          "crypto",
+          "kospi",
+          "sp500",
+          "nasdaq",
+          "dow30"
+        ]
+      }
+    ],
+    "sector_heatmap": [
+      {
+        "sector": "밈/투기",
+        "crypto": "hot",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "AI/크립토 AI",
+        "crypto": "warm",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "DePIN",
+        "crypto": "warm",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "L2/블록체인 인프라",
+        "crypto": "warm",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "DeFi/DEX",
+        "crypto": "cool",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "반도체/AI 하드웨어",
+        "crypto": "n/a",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "방어주/경기소비재",
+        "crypto": "n/a",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      }
+    ],
+    "divergences": [
+      "크립토 시장은 SOON(+51.27%), RaveDAO(+34.40%) 등 밈 토큰 중심으로 단기 리스크온 흐름을 보이고 있으나, KOSPI·S&P500·NASDAQ·Dow 30은 모두 데이터 공백(stale) 상태로 글로벌 주식시장과의 동조화 여부를 현재 시점에서 판단할 수 없다. 크립토의 상승이 글로벌 리스크온을 반영하는지, 아니면 거래소 이벤트에 국한된 내부 현상인지는 다음 거래일 주식시장 개장 후 확인이 필수적이다.",
+      "DeFi·DEX 섹터가 크립토 내에서 냉각 중인 반면, DePIN·L2 등 인프라 섹터는 상대적으로 온기를 유지하고 있어 크립토 내부에서도 섹터 간 차별화가 진행 중이다. 그러나 글로벌 클라우드·인프라 관련 주식 데이터가 없어 크로스마켓 확인이 불가하다.",
+      "크립토 보고서 날짜가 2026-04-17(stale)로, 주식시장 보고서(2026-04-18, 역시 stale)와 날짜가 다르다. 즉, 현재 분석에 활용 가능한 신선한 데이터가 단 하나도 없는 상황으로, 모든 시그널의 신뢰도가 구조적으로 제한된다."
+    ],
+    "global_insight": "현재 유효한 시장 데이터는 크립토(2026-04-17, stale)에만 존재하며, 글로벌 주식시장 전반(KOSPI, S&P500, NASDAQ-100, Dow 30)은 데이터 공백 상태이므로 글로벌 리스크 포스처 판단을 정상적으로 수행할 수 없다. 크립토 내부에서는 Binance Alpha Spotlight 이벤트 드리븐의 밈·투기 흐름이 지배적이며, 실질 포지셔닝은 다음 거래일 주식시장 데이터 확보 후로 미루는 것이 합리적이다. 무효화 시그널은 주식시장 재개장 시 AI·반도체·성장주가 동반 약세를 보이거나, 크립토 밈 섹터 거래량이 급격히 소진되며 Spotlight 효과가 지속되지 않는 경우다."
+  },
+  "narrative": {
+    "macro_regime": "주요 글로벌 주식시장(KOSPI, S&P500, NASDAQ-100, Dow 30) 데이터가 연속 이틀 공백(stale) 상태로, 유효한 거시 사이클 판단이 불가능하며 현재 확인 가능한 유일한 실시간 리스크 센티먼트는 크립토 시장에 국한되어 있다.",
+    "flow_summary": "한 주간 자본 흐름은 글로벌 주식시장 데이터 부재 속에 크립토 내부로만 한정되었으며, Binance Alpha Spotlight 이벤트를 매개로 밈·투기성 저시가총액 알트코인(SOON +51%, ORDI +174%, RaveDAO +34%)으로의 단기 소매 자금 집중이 지배적이었고, DeFi·DePIN·L2 등 인프라 섹터가 상대적 온기를 유지한 반면 인터오퍼러빌리티 섹터는 냉각되었다.",
+    "theme_convergence": [
+      "Binance Alpha Spotlight 이벤트 드리븐 밈·투기성 토큰 급등: 복수의 보고일에 걸쳐 ORDI, SIREN, SOON, RaveDAO 등 거래소 이벤트 연계 토큰의 이상 급등이 반복적으로 관찰되며 크립토 내 투기 심리의 구조적 지속성을 시사",
+      "AI·DePIN 인프라 테마의 크립토 내 재점화: SkyAI(+17%), ICNT(+25%) 등 AI 및 탈중앙화 클라우드 인프라 관련 토큰이 양일 모두 상위권에 진입하며 글로벌 AI·데이터센터 투자 내러티브와의 잠재적 연계성을 지속 발신"
+    ],
+    "theme_divergence": [
+      "글로벌 주식시장과 크립토 간 데이터 단절로 인한 구조적 디커플링: 주식시장 전면 공백 속에 크립토만이 리스크 센티먼트를 발신하는 비정상적 정보 비대칭 상황이 이틀 연속 지속되고 있으며, 이는 크립토 상승이 진정한 글로벌 리스크온을 반영하는지 거래소 내부 유동성 순환에 불과한지 판별을 근본적으로 불가능하게 만드는 이번 주 고유의 노이즈"
+    ],
+    "positioning_advice": "글로벌 주식시장 데이터가 이틀 연속 공백인 상황에서 전략적 포지션 변경은 자제하고 중립(Neutral) 기조를 유지하는 것이 합리적이다. 크립토 내 밈 토큰 투기 포지션은 거래소 이벤트 종료 후 유동성이 급속 소진될 위험이 높으므로 단기 트레이딩 이상의 비중 확대를 지양하되, AI·DePIN 인프라 테마는 글로벌 AI 투자 사이클과의 연계 가능성을 감안해 소규모 익스포저를 유지한다. 다음 거래일 NASDAQ·S&P500 재개장 시 AI·반도체 관련주 및 크립토 BTC 도미넌스 변화를 우선 확인하여 글로벌 리스크온 지속 여부를 교차 검증한 후 포지션 방향성을 결정해야 하며, BTC 도미넌스 급등 또는 성장주 갭 하락이 동반될 경우 즉각적인 위험 자산 비중 축소가 필요하다.",
+    "week_over_week": "지난주 대비 이번 주는 글로벌 주식시장 데이터 공백이 이틀 연속 지속되며 크립토 밈 토큰 중심의 단기 투기 흐름만이 유일한 시장 신호로 남은 반면, AI·DePIN 등 인프라 테마 토큰이 새롭게 상위권에 진입하며 순수 밈 일변도였던 전일 대비 테마 다양성이 소폭 확대되었다."
+  }
+}

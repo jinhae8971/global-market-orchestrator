@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-04-18",
+    "risk_posture": "Neutral",
+    "narrative_tagline": "유효한 시장 데이터가 크립토에만 한정되어 있으며, 자본은 Binance Alpha Spotlight 이벤트 중심의 밈·투기성 알트코인으로 단기 집중되는 양상이나 글로벌 방향성 판단은 제한적이다.",
+    "agents": [
+      {
+        "key": "crypto",
+        "label": "Crypto",
+        "emoji": "🚀",
+        "date": "2026-04-17",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "SOON",
+          "change_pct": 51.3
+        }
+      },
+      {
+        "key": "kospi",
+        "label": "KOSPI",
+        "emoji": "🇰🇷",
+        "date": "2026-04-18",
+        "is_stale": true,
+        "top_gainer": null
+      },
+      {
+        "key": "sp500",
+        "label": "S&P 500",
+        "emoji": "🇺🇸",
+        "date": "2026-04-18",
+        "is_stale": true,
+        "top_gainer": null
+      },
+      {
+        "key": "nasdaq",
+        "label": "NASDAQ-100",
+        "emoji": "💻",
+        "date": "2026-04-18",
+        "is_stale": true,
+        "top_gainer": null
+      },
+      {
+        "key": "dow30",
+        "label": "Dow 30",
+        "emoji": "🏛️",
+        "date": "2026-04-18",
+        "is_stale": true,
+        "top_gainer": null
+      }
+    ]
+  },
+  {
     "date": "2026-04-17",
     "risk_posture": "Neutral",
     "narrative_tagline": "주말 장세로 주식 시장 데이터가 부재한 가운데, 가용 자금이 크립토 밈코인 및 저시가총액 투기성 토큰으로 단기 집중 유입되고 있으나 주요 자산군 간 방향성 판단은 유보적이다.",
