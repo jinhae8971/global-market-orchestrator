@@ -2,17 +2,17 @@
   {
     "date": "2026-04-18",
     "risk_posture": "Risk-On",
-    "narrative_tagline": "미중 무역 긴장 완화 기대를 촉매로 미국 소비자 경기민감주·항공·산업재로 자금이 집중되는 가운데, NASDAQ에서는 AI 데이터센터 인프라 반도체로의 로테이션이 동시에 진행되고 있으며, 크립토에서는 Binance Alpha 이벤트 중심의 단기 투기 자",
+    "narrative_tagline": "미중 무역 긴장 완화 기대감을 배경으로 자금이 미국 경기민감 소비재·산업재·AI 인프라 반도체로 집중 유입되는 동시에, 크립토 시장에서는 거래소 이벤트 주도의 투기적 단기 자금이 AI·밈·RWA 테마에 산발적으로 분산되고 있다.",
     "agents": [
       {
         "key": "crypto",
         "label": "Crypto",
         "emoji": "🚀",
-        "date": "2026-04-17",
-        "is_stale": true,
+        "date": "2026-04-18",
+        "is_stale": false,
         "top_gainer": {
-          "name": "SOON",
-          "change_pct": 51.3
+          "name": "Asteroid Shiba",
+          "change_pct": 365.9
         }
       },
       {
