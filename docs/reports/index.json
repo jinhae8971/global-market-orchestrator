@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-04-21",
+    "risk_posture": "Risk-On",
+    "narrative_tagline": "미중 무역 긴장 완화 기대감과 금리 안정화 기대를 동력으로 미국 기술·산업재, 한국 반도체·방산, 크립토 AI·DeFi 소형주 전반에 걸쳐 광범위한 위험자산 선호 자금이 유입되고 있으며, 방어주(헬스케어·소재·2차전지)에서 성장·경기민감 섹터로의 로테",
+    "agents": [
+      {
+        "key": "crypto",
+        "label": "Crypto",
+        "emoji": "🚀",
+        "date": "2026-04-20",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Pieverse",
+          "change_pct": 50.2
+        }
+      },
+      {
+        "key": "kospi",
+        "label": "KOSPI",
+        "emoji": "🇰🇷",
+        "date": "2026-04-17",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "진원생명과학",
+          "change_pct": 30.0
+        }
+      },
+      {
+        "key": "sp500",
+        "label": "S&P 500",
+        "emoji": "🇺🇸",
+        "date": "2026-04-20",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Trade Desk (The)",
+          "change_pct": 7.0
+        }
+      },
+      {
+        "key": "nasdaq",
+        "label": "NASDAQ-100",
+        "emoji": "💻",
+        "date": "2026-04-20",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Atlassian",
+          "change_pct": 6.8
+        }
+      },
+      {
+        "key": "dow30",
+        "label": "Dow 30",
+        "emoji": "🏛️",
+        "date": "2026-04-20",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Salesforce",
+          "change_pct": 2.3
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-04-19",
     "risk_posture": "Risk-On",
     "narrative_tagline": "미중 무역 긴장 완화 기대를 촉매로 미국 경기민감 소비재·산업재에서 리스크온 순환매가 주도되는 가운데, 크립토에서는 바이낸스 이벤트 드리븐 DeFi·AI 알트코인으로 단기 투기 자금이 유입되고, 한국에서는 조선·방산 구조적 수주 테마로 외국인·기관 수",
