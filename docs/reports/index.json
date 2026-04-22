@@ -2,61 +2,61 @@
   {
     "date": "2026-04-21",
     "risk_posture": "Risk-On",
-    "narrative_tagline": "미중 무역 긴장 완화 기대감과 금리 안정화 기대를 동력으로 미국 기술·산업재, 한국 반도체·방산, 크립토 AI·DeFi 소형주 전반에 걸쳐 광범위한 위험자산 선호 자금이 유입되고 있으며, 방어주(헬스케어·소재·2차전지)에서 성장·경기민감 섹터로의 로테",
+    "narrative_tagline": "미중 무역 긴장 완화 기대를 촉매로 미국 AI 인프라·기술주와 한국 2차전지 대형주에 글로벌 자금이 집중 유입되는 가운데, 크립토 시장에서는 AI 에이전트 내러티브와 바이낸스 이벤트 드리븐 단기 투기 수요가 병행하며 위험자산 전반에 걸친 광범위한 리스",
     "agents": [
       {
         "key": "crypto",
         "label": "Crypto",
         "emoji": "🚀",
-        "date": "2026-04-20",
-        "is_stale": true,
+        "date": "2026-04-21",
+        "is_stale": false,
         "top_gainer": {
-          "name": "Pieverse",
-          "change_pct": 50.2
+          "name": "RaveDAO",
+          "change_pct": 148.5
         }
       },
       {
         "key": "kospi",
         "label": "KOSPI",
         "emoji": "🇰🇷",
-        "date": "2026-04-17",
+        "date": "2026-04-20",
         "is_stale": true,
         "top_gainer": {
-          "name": "진원생명과학",
-          "change_pct": 30.0
+          "name": "솔루스첨단소재",
+          "change_pct": 26.1
         }
       },
       {
         "key": "sp500",
         "label": "S&P 500",
         "emoji": "🇺🇸",
-        "date": "2026-04-20",
-        "is_stale": true,
+        "date": "2026-04-21",
+        "is_stale": false,
         "top_gainer": {
-          "name": "Trade Desk (The)",
-          "change_pct": 7.0
+          "name": "Northern Trust",
+          "change_pct": 8.0
         }
       },
       {
         "key": "nasdaq",
         "label": "NASDAQ-100",
         "emoji": "💻",
-        "date": "2026-04-20",
-        "is_stale": true,
+        "date": "2026-04-21",
+        "is_stale": false,
         "top_gainer": {
-          "name": "Atlassian",
-          "change_pct": 6.8
+          "name": "CrowdStrike",
+          "change_pct": 3.8
         }
       },
       {
         "key": "dow30",
         "label": "Dow 30",
         "emoji": "🏛️",
-        "date": "2026-04-20",
-        "is_stale": true,
+        "date": "2026-04-21",
+        "is_stale": false,
         "top_gainer": {
-          "name": "Salesforce",
-          "change_pct": 2.3
+          "name": "UnitedHealth Group",
+          "change_pct": 7.0
         }
       }
     ]
