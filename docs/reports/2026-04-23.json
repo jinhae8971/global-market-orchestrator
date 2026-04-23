@@ -1,0 +1,437 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T00:08:43.716906Z",
+  "agent_reports": [
+    {
+      "agent_key": "crypto",
+      "agent_label": "Crypto",
+      "agent_emoji": "🚀",
+      "date": "2026-04-22",
+      "dashboard_url": "https://jinhae8971.github.io/crypto-research-agent/report.html?date=2026-04-22",
+      "is_stale": true,
+      "top_gainers": [
+        {
+          "identifier": "ub",
+          "name": "Unibase",
+          "change_pct": 79.25964877144986,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "spk",
+          "name": "Spark",
+          "change_pct": 42.57958234237403,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "bsb",
+          "name": "Block Street",
+          "change_pct": 33.900088593176534,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "rosa",
+          "name": "Rosa Inu",
+          "change_pct": 32.818635607321134,
+          "sector_or_tag": ""
+        },
+        {
+          "identifier": "tria",
+          "name": "TRIA",
+          "change_pct": 32.35857389587032,
+          "sector_or_tag": "Crypto/AI"
+        }
+      ],
+      "narrative": {
+        "current_narrative": "시장은 바이낸스 Alpha Spotlight 이벤트 드리븐 모멘텀과 AI 에이전트 인프라 내러티브가 결합된 단기 투기 수요를 지속적으로 보상하고 있다.",
+        "hot_sectors": [
+          "AI",
+          "DeFi",
+          "바이낸스 Alpha Spotlight 이벤트 드리븐"
+        ],
+        "cooling_sectors": [
+          "Meme",
+          "L2/Interop",
+          "Oracle"
+        ],
+        "investment_insight": "AI 섹터(UAI, PIEVERSE, UB, TRIA 등)가 주 전반에 걸쳐 반복 등장하고 신뢰도 점수도 상대적으로 높게 유지되고 있어, 바이낸스 Alpha Spotlight 노출과 AI 에이전트 내러티브가 결합된 자산을 단기 오버웨이트하는 전략이 유효하다. DeFi와 RWA/Stablecoin(SPK 등) 역시 상위 신뢰도로 재등장하고 있어 보조 포지션으로 추가할 수 있으나, Meme 섹터는 신뢰도 0.2~0.35 수준의 저품질 펌프가 대부분이므로 회피가 바람직하다. 무효화 신호는 바이낸스 Alpha Spotlight 이벤트 부재 시 AI 토큰들의 급격한 모멘텀 소멸, 또는 BTC 도미넌스 급등으로 인한 알트코인 전반의 유동성 이탈이다."
+      }
+    },
+    {
+      "agent_key": "kospi",
+      "agent_label": "KOSPI",
+      "agent_emoji": "🇰🇷",
+      "date": "2026-04-21",
+      "dashboard_url": "https://jinhae8971.github.io/kospi-research-agent/report.html?date=2026-04-21",
+      "is_stale": true,
+      "top_gainers": [
+        {
+          "identifier": "092220",
+          "name": "KEC",
+          "change_pct": 50.695012264922326,
+          "sector_or_tag": "KOSPI"
+        },
+        {
+          "identifier": "161000",
+          "name": "애경케미칼",
+          "change_pct": 37.90613718411552,
+          "sector_or_tag": "KOSPI"
+        },
+        {
+          "identifier": "017860",
+          "name": "DS단석",
+          "change_pct": 29.629629629629626,
+          "sector_or_tag": "KOSPI"
+        },
+        {
+          "identifier": "001530",
+          "name": "DI동일",
+          "change_pct": 27.615062761506277,
+          "sector_or_tag": "KOSPI"
+        },
+        {
+          "identifier": "006110",
+          "name": "삼아알미늄",
+          "change_pct": 26.642984014209592,
+          "sector_or_tag": "KOSPI"
+        }
+      ],
+      "narrative": {
+        "current_narrative": "한국 증시는 미·이란 군사 충돌로 촉발된 국제유가 급등 국면에서 알루미늄·석유화학 대체소재·바이오디젤 등 에너지·화학 관련 테마주에 단기 매수세가 집중되는 지정학적 리스크 장세를 연출하고 있다.",
+        "hot_sectors": [
+          "화학 (지정학 리스크 기반 소재 테마 순환매, 3일 연속 상위권 등장)",
+          "에너지 (유가 급등 수혜 — 애경케미칼·DS단석 고신뢰도 급등)",
+          "철강/알루미늄 (삼아알미늄 중동발 공급차질 우려 대장주 부각, 신뢰도 0.78)"
+        ],
+        "cooling_sectors": [
+          "2차전지 (솔루스첨단소재·삼성SDI 주도 반등 사이클이 직전일 이후 상위권에서 이탈)",
+          "반도체 (DB하이텍·DB 주도 밸류체인 랠리가 현재 상위권에 미등장)",
+          "방산 (퍼스텍·혜인의 중동 방산 모멘텀이 화학·에너지 테마로 대체되며 관심 분산)"
+        ],
+        "investment_insight": "현 시점에서 포트폴리오 전술적 포지션은 유가 급등 직접 수혜 섹터인 정유·석유화학 소재(특히 대체소재 공급업체)와 알루미늄 관련주로 단기 비중을 유지하되, 지정학적 노이즈성 급등주(신뢰도 0.3 이하 종목)는 추격 매수를 지양한다. 외국인·기관 수급 데이터에서 화학·에너지 섹터 순매수 전환 여부를 확인하는 것이 포지션 확대의 선행 신호이며, 미·이란 협상 재개 또는 유가 급락이 가시화되면 이 테마 전반은 즉각 언와인딩 위험에 노출된다. 2차전지 대형주(삼성SDI 등)는 단기 조정 이후 재진입 타이밍을 모니터링할 필요가 있으며, 지정학 리스크가 완화 국면으로 전환 시 반도체·2차전지로의 재로테이션이 빠르게 나타날 수 있음을 유의한다."
+      }
+    },
+    {
+      "agent_key": "sp500",
+      "agent_label": "S&P 500",
+      "agent_emoji": "🇺🇸",
+      "date": "2026-04-22",
+      "dashboard_url": "https://jinhae8971.github.io/sp500-research-agent/report.html?date=2026-04-22",
+      "is_stale": true,
+      "top_gainers": [
+        {
+          "identifier": "STLD",
+          "name": "Steel Dynamics",
+          "change_pct": 13.548321883656003,
+          "sector_or_tag": "Materials"
+        },
+        {
+          "identifier": "GEV",
+          "name": "GE Vernova",
+          "change_pct": 12.446777222014461,
+          "sector_or_tag": "Industrials"
+        },
+        {
+          "identifier": "MAS",
+          "name": "Masco",
+          "change_pct": 11.084405302578022,
+          "sector_or_tag": "Industrials"
+        },
+        {
+          "identifier": "CRWD",
+          "name": "CrowdStrike",
+          "change_pct": 10.079013855030459,
+          "sector_or_tag": "AI/Software"
+        },
+        {
+          "identifier": "NUE",
+          "name": "Nucor",
+          "change_pct": 9.38888030228716,
+          "sector_or_tag": "Materials"
+        }
+      ],
+      "narrative": {
+        "current_narrative": "미중 무역 긴장 완화 기대가 전 섹터에 걸친 리스크온 랠리를 주도하고 있으며, 특히 소재(철강), 산업재, 기술주가 관세 리스크 해소 수혜주로 집중 부각되고 있다.",
+        "hot_sectors": [
+          "Materials (소재 — 철강: STLD, NUE 연속 등장)",
+          "Industrials (산업재 — GEV, MAS, SWK, UAL 연속 등장)",
+          "Technology (기술 — CRWD, HPQ, HPE, DELL 연속 등장)",
+          "Consumer Discretionary (임의소비재 — MAS, DHI, RCL, CCL, CVNA)"
+        ],
+        "cooling_sectors": [
+          "Consumer Staples (필수소비재 — DLTR, 4/17 이후 미등장)",
+          "Communication Services (통신서비스 — TTD, 4/20 이후 미등장)",
+          "Financials (금융 — NTRS, MSCI, 4/21 한 차례 등장 후 소멸)",
+          "Healthcare (헬스케어 — UNH, 4/21 기술적 반등 이후 후속 모멘텀 부재)"
+        ],
+        "investment_insight": "미중 무역 긴장 완화 기대가 지속되는 한 철강(STLD·NUE), 에너지 인프라(GEV), 주택 관련 산업재(MAS)를 중심으로 오버웨이트 포지션을 유지하는 것이 유효하다. 다만 전 섹터에 걸친 랠리가 단일 매크로 테마(무역 완화)에 과도하게 집중되어 있어, 실제 협상 결렬 또는 추가 관세 발표 시 고베타 섹터에서 급격한 되돌림이 발생할 수 있으므로 포지션 크기를 제한하고 손절 기준을 명확히 설정해야 한다. 필수소비재·헬스케어·금융 섹터는 모멘텀이 소멸 중이며 현 국면에서 언더퍼폼 가능성이 높아 비중 축소가 적절하고, 미중 협상 진전 지표(관세 유예 연장, 고위급 회담 일정 등) 후퇴가 관찰될 경우 즉시 리스크 축소 신호로 간주해야 한다."
+      }
+    },
+    {
+      "agent_key": "nasdaq",
+      "agent_label": "NASDAQ-100",
+      "agent_emoji": "💻",
+      "date": "2026-04-22",
+      "dashboard_url": "https://jinhae8971.github.io/nasdaq-research-agent/report.html?date=2026-04-22",
+      "is_stale": true,
+      "top_gainers": [
+        {
+          "identifier": "ARM",
+          "name": "Arm Holdings",
+          "change_pct": 17.897206478336738,
+          "sector_or_tag": "AI/Software"
+        },
+        {
+          "identifier": "MRVL",
+          "name": "Marvell Technology",
+          "change_pct": 12.620806481986785,
+          "sector_or_tag": "AI/Software"
+        },
+        {
+          "identifier": "TEAM",
+          "name": "Atlassian",
+          "change_pct": 10.561696201031232,
+          "sector_or_tag": "AI/Software"
+        },
+        {
+          "identifier": "CRWD",
+          "name": "CrowdStrike",
+          "change_pct": 10.079013855030459,
+          "sector_or_tag": "AI/Software"
+        },
+        {
+          "identifier": "AMD",
+          "name": "AMD",
+          "change_pct": 9.005343398648847,
+          "sector_or_tag": "AI/Software"
+        }
+      ],
+      "narrative": {
+        "current_narrative": "나스닥 시장은 현재 AI 데이터센터 인프라 확장 사이클을 핵심 동력으로 삼아, 반도체(ASIC·GPU·네트워킹 칩) 및 엔터프라이즈 SaaS 멀티플 리레이팅을 동시에 보상하고 있다.",
+        "hot_sectors": [
+          "AI 인프라 반도체 (MRVL·ARM·AMD — 커스텀 ASIC·GPU·고속 네트워킹)",
+          "엔터프라이즈 SaaS 멀티플 리레이팅 (CRWD·TEAM·ZS — 금리 안정화 수혜)",
+          "AI 기반 사이버보안 플랫폼 (CRWD·ZS — 구조적 수요 성장)"
+        ],
+        "cooling_sectors": [
+          "에너지/E&P (FANG — 4/21일 이후 상위권 탈락)",
+          "크립토 레버리지 플레이 (MSTR — 4/17일 이후 상위권 미등장)",
+          "헬스케어 디바이스 (DXCM — 4/17일 이후 상위권 미등장)",
+          "케이블·통신 방어주 (CHTR — 4/20일 이후 상위권 탈락)"
+        ],
+        "investment_insight": "현 시점에서 PM은 AI 데이터센터 직접 수혜 반도체(MRVL·ARM·AMD)를 오버웨이트하되, 특히 커스텀 ASIC·고속 인터커넥트 사이클의 초기 수혜주인 MRVL에 대한 비중 확대를 최우선으로 고려해야 한다. 엔터프라이즈 SaaS는 금리 경로 불확실성이 재부각될 경우 멀티플 리레이팅이 빠르게 되돌려질 수 있으므로, CRWD·TEAM 포지션은 수익 가시성이 높은 종목에 한정하고 규모를 조절할 것을 권고한다. 무효화 시그널은 ①미 국채 10년물 수익률이 4.6%를 재돌파하거나 ②주요 빅테크의 AI 설비투자(capex) 가이던스 하향 조정 발표로, 이 경우 AI 인프라 멀티플 전반의 급격한 디레이팅 위험에 대비한 헤지 포지션을 즉시 검토해야 한다."
+      }
+    },
+    {
+      "agent_key": "dow30",
+      "agent_label": "Dow 30",
+      "agent_emoji": "🏛️",
+      "date": "2026-04-22",
+      "dashboard_url": "https://jinhae8971.github.io/dow30-research-agent/report.html?date=2026-04-22",
+      "is_stale": true,
+      "top_gainers": [
+        {
+          "identifier": "UNH",
+          "name": "UnitedHealth Group",
+          "change_pct": 8.899357328749788,
+          "sector_or_tag": "Health Care"
+        },
+        {
+          "identifier": "CRM",
+          "name": "Salesforce",
+          "change_pct": 4.205558190281138,
+          "sector_or_tag": "AI/Software"
+        },
+        {
+          "identifier": "CSCO",
+          "name": "Cisco Systems",
+          "change_pct": 4.115945567255435,
+          "sector_or_tag": "AI/Software"
+        },
+        {
+          "identifier": "BA",
+          "name": "Boeing",
+          "change_pct": 3.536571637478831,
+          "sector_or_tag": "Industrials"
+        },
+        {
+          "identifier": "MSFT",
+          "name": "Microsoft",
+          "change_pct": 2.395989658714032,
+          "sector_or_tag": "AI/Software"
+        }
+      ],
+      "narrative": {
+        "current_narrative": "다우지수는 금리 인하 기대감을 핵심 동력으로 삼아 기술주 밸류에이션 재평가와 헬스케어 저가 매수세가 동시에 작동하는 복합 랠리 국면에 있으며, UNH의 고가주 반등이 지수 상방 기여를 극대화하고 있다.",
+        "hot_sectors": [
+          "기술(Technology) — CRM·CSCO·MSFT가 3거래일 연속 상위 가이너에 등장, AI 인프라·클라우드 성장 내러티브 지속",
+          "헬스케어(Healthcare) — UNH이 이틀 연속 최상위 기여, 과매도 반등에서 섹터 저가 매수로 성격 전환 중",
+          "산업재(Industrials) — BA·CAT가 각각 금일·04-17에 등장, 리스크온 순환매 수혜 확인"
+        ],
+        "cooling_sectors": [
+          "금융(Financials) — JPM·GS가 04-17~04-20 연속 등장 후 금일 완전히 탈락, 금리 인하 기대 선반영 후 모멘텀 약화",
+          "에너지(Energy) — CVX가 04-21 단 하루 반짝 등장 후 사라짐, 유가 반등 지속성 의구심",
+          "소비재 방어(Consumer Staples) — WMT가 04-21 이후 탈락, 리스크온 심화로 방어 포지션 해소"
+        ],
+        "investment_insight": "현 국면에서는 AI 인프라 수혜 기술주(MSFT·CSCO)와 저가 매수 모멘텀이 살아 있는 헬스케어(UNH)에 대한 비중 확대 포지션이 유효하다. 금융 섹터는 금리 인하 기대가 이미 상당 부분 주가에 반영된 상태로 단기 차익실현 압력에 노출될 수 있어 비중 축소가 바람직하다. 무효화 신호는 10년물 국채금리 재상승(4.5% 돌파) 또는 UNH 추가 하방 재개로, 이 경우 기술주 밸류에이션 재평가 논리와 헬스케어 반등 테마 모두 동시에 훼손될 수 있어 포지션 재점검이 필요하다."
+      }
+    }
+  ],
+  "cross_analysis": {
+    "global_risk_posture": "Risk-On",
+    "capital_flow_direction": "미중 무역 긴장 완화 기대를 핵심 동력으로 미국 철강·산업재·AI 반도체로 자금이 집중되는 가운데, 크립토에서는 바이낸스 Alpha Spotlight 이벤트 기반 AI 토큰 단기 투기 수요가 병행되며 글로벌 리스크온 흐름이 전방위적으로 확산되고 있다.",
+    "cross_market_signals": [
+      {
+        "signal": "AI 인프라 테마의 글로벌 동조화: 나스닥에서 ARM +17.9%, MRVL +12.62%, AMD +9.01%가 AI 데이터센터 반도체 수요 확장을 반영하고, 다우에서 CRM +4.21%, CSCO +4.12%, MSFT +2.4%가 클라우드·AI 인프라 내러티브를 이어받으며, 크립토에서는 TRIA(Crypto/AI) +32.36%가 AI 에이전트 인프라 내러티브와 결합해 동일 테마가 주식·암호화폐 시장 전반에 걸쳐 동시 작동 중이다.",
+        "markets_involved": [
+          "nasdaq",
+          "dow30",
+          "crypto"
+        ]
+      },
+      {
+        "signal": "미중 무역 완화 기대발 소재·산업재 동반 랠리: S&P500에서 철강주 STLD +13.55%, NUE +9.39%, 산업재 GEV +12.45%, MAS +11.08%가 상위권을 장악하고, 코스피에서는 삼아알미늄 +26.64%, KEC +50.7% 등 알루미늄·철강 관련주가 급등하며 지정학적 공급 차질 우려와 무역 재편 수혜 기대가 양 시장에서 소재 섹터를 동시에 가열시키고 있다.",
+        "markets_involved": [
+          "sp500",
+          "kospi"
+        ]
+      },
+      {
+        "signal": "에너지·지정학 리스크의 분화된 시장 반응: 코스피에서는 미·이란 군사 충돌 및 유가 급등으로 애경케미칼 +37.91%, DS단석 +29.63% 등 석유화학·바이오디젤주에 단기 매수세가 집중된 반면, 다우에서는 CVX가 4월 21일 단 하루 반짝 등장 후 소멸하고 S&P500에서도 에너지 섹터가 상위권에 부재해, 동일한 유가 급등 신호가 한국 시장에서는 단기 테마 매수로, 미국 시장에서는 무역 완화 랠리에 묻혀 에너지 섹터 관심이 희석되는 상이한 반응을 보이고 있다.",
+        "markets_involved": [
+          "kospi",
+          "sp500",
+          "dow30"
+        ]
+      },
+      {
+        "signal": "사이버보안·엔터프라이즈 SaaS 멀티플 리레이팅: CRWD가 S&P500과 나스닥 양 시장에서 동일하게 +10.08% 상위 가이너에 등재되고, TEAM +10.56%, ZS가 나스닥 핫섹터로 부각되며 금리 안정화 기대와 AI 기반 구조적 수요 성장이 결합된 엔터프라이즈 SaaS·사이버보안 플랫폼에 대한 멀티플 재평가가 미국 증시 전반에서 동시 진행 중이다.",
+        "markets_involved": [
+          "sp500",
+          "nasdaq"
+        ]
+      },
+      {
+        "signal": "헬스케어 섹터의 복합 신호: 다우에서 UNH +8.9%로 이틀 연속 최상위 기여주로 부상해 과매도 반등에서 저가 매수로 성격이 전환되고 있는 반면, S&P500 내러티브에서는 헬스케어가 쿨링 섹터로 분류되며 후속 모멘텀이 부재한 상태로, 동일 종목(UNH)이 지수별로 상이한 맥락을 형성하고 있어 섹터 방향성에 대한 신중한 해석이 필요하다.",
+        "markets_involved": [
+          "dow30",
+          "sp500"
+        ]
+      }
+    ],
+    "sector_heatmap": [
+      {
+        "sector": "AI/반도체",
+        "crypto": "hot",
+        "kospi": "cool",
+        "sp500": "hot",
+        "nasdaq": "hot",
+        "dow30": "warm"
+      },
+      {
+        "sector": "소재/철강/알루미늄",
+        "crypto": "n/a",
+        "kospi": "hot",
+        "sp500": "hot",
+        "nasdaq": "neutral",
+        "dow30": "neutral"
+      },
+      {
+        "sector": "에너지/석유화학",
+        "crypto": "n/a",
+        "kospi": "hot",
+        "sp500": "cool",
+        "nasdaq": "cool",
+        "dow30": "cool"
+      },
+      {
+        "sector": "산업재",
+        "crypto": "n/a",
+        "kospi": "warm",
+        "sp500": "hot",
+        "nasdaq": "neutral",
+        "dow30": "warm"
+      },
+      {
+        "sector": "엔터프라이즈 SaaS/사이버보안",
+        "crypto": "n/a",
+        "kospi": "n/a",
+        "sp500": "hot",
+        "nasdaq": "hot",
+        "dow30": "warm"
+      },
+      {
+        "sector": "헬스케어",
+        "crypto": "n/a",
+        "kospi": "neutral",
+        "sp500": "cool",
+        "nasdaq": "cool",
+        "dow30": "warm"
+      },
+      {
+        "sector": "금융",
+        "crypto": "n/a",
+        "kospi": "neutral",
+        "sp500": "cool",
+        "nasdaq": "neutral",
+        "dow30": "cool"
+      },
+      {
+        "sector": "Crypto/AI",
+        "crypto": "hot",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "DeFi/RWA",
+        "crypto": "warm",
+        "kospi": "n/a",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      },
+      {
+        "sector": "필수소비재/방어주",
+        "crypto": "n/a",
+        "kospi": "neutral",
+        "sp500": "cool",
+        "nasdaq": "cool",
+        "dow30": "cool"
+      },
+      {
+        "sector": "2차전지",
+        "crypto": "n/a",
+        "kospi": "cool",
+        "sp500": "n/a",
+        "nasdaq": "n/a",
+        "dow30": "n/a"
+      }
+    ],
+    "divergences": [
+      "에너지 섹터 한·미 온도차: 코스피에서는 미·이란 군사 충돌 기반 유가 급등으로 애경케미칼 +37.91%, DS단석 +29.63% 등 에너지·석유화학 테마가 3일 연속 최상위권을 장악한 반면, S&P500·나스닥·다우 모두에서 에너지 섹터는 쿨링 또는 상위권 부재 상태다. 이는 미국 시장이 무역 완화 랠리에 집중하며 지정학적 유가 리스크를 상대적으로 할인하고 있는 반면, 한국 시장은 중동 리스크에 더 직접적으로 노출된 원자재 수입 의존 구조를 반영하는 한국 고유의 카탈리스트로 해석된다.",
+      "헬스케어 내 지수별 분화: UNH는 다우에서 +8.9%로 2일 연속 최상위 기여주로 부각되며 저가 매수 성격의 반등이 진행 중이나, 동일 종목이 S&P500 내러티브에서는 헬스케어 전반의 쿨링 섹터 분류와 함께 후속 모멘텀 부재로 평가받고 있다. 다우 지수 특성상 고가주 UNH의 포인트 기여도가 과대 반영되는 구조적 왜곡을 감안할 때, 헬스케어 섹터 전반의 방향성보다는 UNH 개별 종목의 기술적 반등으로 해석하는 것이 적절하다.",
+      "크립토 AI 테마의 규모·품질 격차: 나스닥에서 ARM +17.9%, MRVL +12.62% 등 실물 AI 인프라 반도체가 펀더멘털 기반의 대형 랠리를 이어가는 동안, 크립토 AI 섹터(TRIA +32.36%, UB +79.26%)는 바이낸스 Alpha Spotlight 이벤트 드리븐 단기 투기 수요가 주도하는 구조로, 동일한 AI 내러티브를 공유하지만 수익의 지속 가능성과 신뢰도 면에서 현격한 질적 차이가 존재한다. 크립토 AI 토큰의 경우 이벤트 부재 시 모멘텀 소멸 리스크가 높아 별도의 리스크 관리 기준이 필요하다.",
+      "코스피 반도체·2차전지의 부재: 나스닥과 S&P500에서 AI 반도체(ARM, MRVL, AMD)가 시장을 주도하고 있음에도 불구하고, 코스피에서는 반도체(DB하이텍 등)와 2차전지(삼성SDI 등) 모두 현재 상위권에서 이탈해 있다. 이는 한국 증시가 지정학적 에너지·소재 테마에 단기 자금이 쏠리며 글로벌 AI 반도체 랠리의 수혜를 즉각적으로 반영하지 못하고 있음을 시사하며, 지정학 리스크 완화 시 한국 반도체·2차전지로의 빠른 리로테이션 가능성을 주목해야 한다."
+    ],
+    "global_insight": "현재 글로벌 시장은 미중 무역 완화 기대와 AI 인프라 투자 사이클이 쌍두 엔진으로 작동하는 전형적인 리스크온 국면으로, 미국 AI 반도체(ARM, MRVL, AMD)·철강·산업재(STLD, GEV)와 크립토 AI 토큰(TRIA)을 오버웨이트하되, 코스피의 경우 지정학 리스크 완화 시 즉각적인 반도체·2차전지 리로테이션에 대비한 선제적 포지셔닝을 준비할 것을 권고한다. 필수소비재·금융·방어주는 전 시장에 걸쳐 모멘텀이 소멸 중이므로 비중 축소가 바람직하며, 코스피 에너지·화학 테마는 한국 고유의 단기 포지션으로 한정하고 글로벌 포트폴리오 차원의 핵심 오버웨이트로 편입하지 않는 것이 적절하다. 현재 리스크온 시나리오의 핵심 무효화 신호는 ①미중 무역 협상 결렬 또는 추가 관세 발표, ②미 국채 10년물 수익률의 4.6% 재돌파, ③주요 빅테크의 AI 설비투자 가이던스 하향으로, 이 중 하나라도 현실화될 경우 고베타 AI 반도체·철강·크립토 포지션 전반에 걸친 신속한 리스크 축소가 필요하다."
+  },
+  "narrative": {
+    "macro_regime": "글로벌 자본시장은 미중 무역 긴장 완화 기대와 AI 인프라 투자 사이클이 쌍두 엔진으로 작동하는 전형적인 리스크온 확장 국면에 위치해 있다. 지배적 매크로 동력은 ①무역 정책 불확실성 완화에 따른 경기민감 섹터 리레이팅, ②빅테크 AI 설비투자(캐팩스) 사이클 가속화로 대표되는 성장 모멘텀, ③미국 국채 10년물 금리의 상대적 안정화가 가능케 하는 밸류에이션 멀티플 확장이다. 한 주간 내내 리스크온 기조가 유지되었으며, 강도는 초반(4/17 중립)에서 주 후반(오늘)으로 갈수록 뚜렷하게 강화되었다. 금리·무역·유동성·지정학 네 가지 변수 중 현재는 무역 완화와 유동성 확장이 시장을 주도하고 있으며, 지정학(중동 리스크)은 한국 시장에서만 단기 테마로 작동하는 분화된 양상이다.",
+    "flow_summary": "한 주간 자금 흐름을 보면, 미국 AI 인프라 반도체(나스닥: ARM +17.9%, MRVL, AMD)와 소재·철강(S&P500: STLD +13.55%, NUE +9.39%)이 가장 강한 자금 유입을 기록하며 시장 내 최대 수혜 자산군으로 부상했다. 다우는 UNH 기술적 반등과 CRM·CSCO 등 클라우드·AI 인프라 내러티브가 주도했으며, 전반적으로 방어주·필수소비재에서 성장·경기민감 섹터로의 로테이션이 전 주에 걸쳐 일관되게 진행됐다. 코스피는 에너지·소재(애경케미칼, DS단석, 삼아알미늄, KEC) 테마에 단기 자금이 집중되며 글로벌 AI·반도체 랠리와 디커플링되었고, 2차전지(삼성SDI)는 주 중반 일시 부각 후 주 후반 상위권에서 이탈했다. 크립토는 바이낸스 Alpha Spotlight 이벤트 드리븐 AI 토큰(TRIA +32.36%, UB +79.26%)과 밈코인 중심의 투기 자금 유입이 반복되는 패턴을 보이며, 주식 시장 대비 낮은 질적 신뢰도를 유지했다. 전반적으로 미국 주식 시장이 자금 유입 주도권을 확보했으며, 크립토는 이벤트 의존 단기 유동성, 코스피는 지정학 테마 중심의 국지적 순환으로 특징지어진다.",
+    "theme_convergence": [
+      "AI 인프라 테마의 멀티마켓 동조화: 나스닥 AI 반도체(ARM, MRVL, AMD)·다우 클라우드(CRM, CSCO, MSFT)·크립토 AI 토큰(TRIA, UAI)이 한 주 내내 동일한 AI 내러티브 하에 동시 강세를 보이며, AI 캐팩스 사이클이 자산군을 초월한 지배적 글로벌 메가 테마로 자리 잡았다.",
+      "미중 무역 완화 기대발 소재·산업재 동반 랠리: 미국 S&P500 철강(STLD, NUE)·산업재(GEV, MAS)와 코스피 알루미늄·철강(삼아알미늄, KEC)이 동일한 무역 완화 내러티브를 공유하며 양 시장에서 동시에 강세를 기록했다.",
+      "리스크온 확산에 따른 방어주·필수소비재 전방위 소외: 전 주에 걸쳐 미국 및 한국 시장 모두에서 방어주·헬스케어(UNH 기술적 반등 제외)·필수소비재의 모멘텀이 약화되며 성장·경기민감 자산으로의 자금 이동이 일관되게 관찰되었다.",
+      "사이버보안·엔터프라이즈 SaaS 멀티플 리레이팅: CRWD가 S&P500과 나스닥 양 지수에서 동시에 상위 게이너에 등재되고, TEAM·ZS 등이 동반 강세를 보이며 금리 안정화와 AI 구조적 수요가 결합된 엔터프라이즈 소프트웨어 재평가가 주 후반 뚜렷하게 나타났다."
+    ],
+    "theme_divergence": [
+      "에너지 섹터 한·미 온도차: 코스피에서 미·이란 군사 충돌 기반 유가 급등으로 애경케미칼·DS단석 등 에너지·석유화학 테마가 3일 이상 최상위권을 장악한 반면, 미국 S&P500·나스닥·다우에서는 에너지 섹터가 상위권에서 부재하며 지정학 리스크를 상대적으로 할인하는 한국 고유의 카탈리스트로 작동했다.",
+      "코스피 반도체·2차전지의 글로벌 AI 랠리 수혜 지연: 나스닥 AI 반도체가 주도하는 글로벌 랠리에도 불구하고, 코스피 반도체·2차전지는 지정학·에너지 테마에 단기 자금이 쏠리며 상위권에서 이탈해 글로벌 AI 수혜를 즉각 반영하지 못하는 한국 시장 특유의 자금 분산 현상이 관찰되었다.",
+      "크립토 AI 토큰의 이벤트 의존 투기 구조: 나스닥 AI 반도체가 실제 캐팩스 데이터와 엔터프라이즈 수요 기반의 펀더멘털 랠리를 지속하는 동안, 크립토 AI 토큰(TRIA, UAI)은 바이낸스 Alpha Spotlight 이벤트라는 플랫폼 내부 촉매에 의존하는 투기 구조여서 이벤트 소멸 시 모멘텀 급락 리스크가 내재된 독립적 특성을 보였다.",
+      "코스피 조선·방산 섹터의 글로벌 산업재 디커플링: HD현대마린솔루션 등 한국 조선 MRO 섹터가 실적 가시성 프리미엄으로 독자 강세를 보인 반면, 미국 시장에서는 산업재(CAT 등)가 상위권에서 약화되며 한국 조선업의 고유한 수주 사이클이 글로벌 산업재 트렌드와 분화되는 현상이 확인되었다."
+    ],
+    "positioning_advice": "글로벌 포트폴리오에서는 나스닥 AI 인프라 반도체(ARM, MRVL, AMD)와 엔터프라이즈 SaaS·사이버보안(CRWD, TEAM)을 핵심 오버웨이트로 유지하고, 미중 무역 완화 기대가 지속되는 동안 S&P500 소재·철강 섹터(STLD, NUE) 단기 비중 확대를 병행하는 전략이 유효하다. 코스피에서는 현재 에너지·화학 테마를 단기 포지션으로 제한하고, 지정학 리스크 완화 시 반도체·2차전지로의 선제적 리로테이션을 준비하는 한편 크립토는 이벤트 부재 시 AI 토큰 포지션을 경량화 유지하는 것이 바람직하다. 핵심 리스크 모니터링 지표는 ①미중 무역 협상 결렬 또는 추가 관세 발표, ②미 국채 10년물 금리 4.6% 재돌파, ③주요 빅테크 AI 설비투자 가이던스 하향으로, 이 중 하나라도 현실화될 경우 고베타 AI 반도체·철강·크립토 전반에 걸친 신속한 리스크 축소가 필요하다.",
+    "week_over_week": "지난주 초반(4/17) 주식 시장 데이터 부재로 크립토 투기 심리만 확인 가능한 중립적 출발에서, 주 후반으로 갈수록 미중 무역 완화 기대와 AI 인프라 테마가 동시 강화되며 리스크온 강도가 뚜렷하게 상승했고, 특히 주 말미에는 ARM·MRVL 등 AI 반도체 랠리 규모가 주 초 대비 대폭 확대되고 철강·소재 섹터까지 동반 급등하는 등 리스크온의 질적·양적 확장이 동시에 진행된 점이 가장 두드러진 주간 변화다."
+  }
+}

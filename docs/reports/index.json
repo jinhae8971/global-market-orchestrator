@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-04-23",
+    "risk_posture": "Risk-On",
+    "narrative_tagline": "미중 무역 긴장 완화 기대를 핵심 동력으로 미국 철강·산업재·AI 반도체로 자금이 집중되는 가운데, 크립토에서는 바이낸스 Alpha Spotlight 이벤트 기반 AI 토큰 단기 투기 수요가 병행되며 글로벌 리스크온 흐름이 전방위적으로 확산되고 있다.",
+    "agents": [
+      {
+        "key": "crypto",
+        "label": "Crypto",
+        "emoji": "🚀",
+        "date": "2026-04-22",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Unibase",
+          "change_pct": 79.3
+        }
+      },
+      {
+        "key": "kospi",
+        "label": "KOSPI",
+        "emoji": "🇰🇷",
+        "date": "2026-04-21",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "KEC",
+          "change_pct": 50.7
+        }
+      },
+      {
+        "key": "sp500",
+        "label": "S&P 500",
+        "emoji": "🇺🇸",
+        "date": "2026-04-22",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Steel Dynamics",
+          "change_pct": 13.5
+        }
+      },
+      {
+        "key": "nasdaq",
+        "label": "NASDAQ-100",
+        "emoji": "💻",
+        "date": "2026-04-22",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Arm Holdings",
+          "change_pct": 17.9
+        }
+      },
+      {
+        "key": "dow30",
+        "label": "Dow 30",
+        "emoji": "🏛️",
+        "date": "2026-04-22",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "UnitedHealth Group",
+          "change_pct": 8.9
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-04-21",
     "risk_posture": "Risk-On",
     "narrative_tagline": "미중 무역 긴장 완화 기대를 촉매로 미국 AI 인프라·기술주와 한국 2차전지 대형주에 글로벌 자금이 집중 유입되는 가운데, 크립토 시장에서는 AI 에이전트 내러티브와 바이낸스 이벤트 드리븐 단기 투기 수요가 병행하며 위험자산 전반에 걸친 광범위한 리스",
