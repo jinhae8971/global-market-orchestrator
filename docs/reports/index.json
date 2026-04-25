@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-04-25",
+    "risk_posture": "Risk-On",
+    "narrative_tagline": "미중 무역 긴장 완화 기대와 반도체 업황 바닥 통과 내러티브를 양대 촉매로, 자금이 미국 산업재·반도체(S&P500·NASDAQ)와 한국 에너지·전력 인프라(KOSPI)로 집중 유입되는 가운데, 크립토 시장에서는 AI·DeFi에서 게이밍·밈 섹터로의 ",
+    "agents": [
+      {
+        "key": "crypto",
+        "label": "Crypto",
+        "emoji": "🚀",
+        "date": "2026-04-24",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "ApeCoin",
+          "change_pct": 74.5
+        }
+      },
+      {
+        "key": "kospi",
+        "label": "KOSPI",
+        "emoji": "🇰🇷",
+        "date": "2026-04-22",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "OCI",
+          "change_pct": 39.7
+        }
+      },
+      {
+        "key": "sp500",
+        "label": "S&P 500",
+        "emoji": "🇺🇸",
+        "date": "2026-04-23",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "United Rentals",
+          "change_pct": 21.5
+        }
+      },
+      {
+        "key": "nasdaq",
+        "label": "NASDAQ-100",
+        "emoji": "💻",
+        "date": "2026-04-23",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "Texas Instruments",
+          "change_pct": 20.8
+        }
+      },
+      {
+        "key": "dow30",
+        "label": "Dow 30",
+        "emoji": "🏛️",
+        "date": "2026-04-23",
+        "is_stale": true,
+        "top_gainer": {
+          "name": "UnitedHealth Group",
+          "change_pct": 9.6
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-04-24",
     "risk_posture": "Risk-On",
     "narrative_tagline": "미중 무역 긴장 완화 기대 및 반도체 업황 바닥 통과 내러티브를 핵심 촉매로, 자본이 미국 산업재·반도체(URI +21%, TXN +21%, ARM +17%)와 한국 에너지·전력 인프라(OCI +40%, 가온전선 +34%)로 집중 유입되는 가운데, 크",
