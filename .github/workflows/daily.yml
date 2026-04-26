@@ -2,9 +2,9 @@ name: Daily Global Orchestrator
 
 on:
   schedule:
-    # 23:30 UTC — runs 1.5h after the 5 agent crons (22:00 UTC)
-    # Gives agents time to complete + deploy Pages before we collect
-    - cron: '30 23 * * *'
+    # 07:00 KST = 22:00 UTC (previous day)
+    # Runs 1h after the agent data refreshes at 06:00 KST.
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 permissions:
