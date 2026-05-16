@@ -7,6 +7,14 @@ Flow:
   4. Write global report + update dashboard index
   5. Send unified Telegram notification
 """
+# === anthropic_usage_reporter (auto-injected) ===
+try:
+    from anthropic_usage_reporter import patch_anthropic_client
+    patch_anthropic_client(workflow="global-orchestrator")
+except Exception:
+    pass
+# === end auto-injection ===
+
 from __future__ import annotations
 
 import argparse
